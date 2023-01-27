@@ -101,6 +101,10 @@ border-radius: 10px;
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
 }
 
+.contact {
+  max-width: 600px;
+}
+
 .demos {
   padding-top: 3em;
 }
