@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
+import Tooltip from '@mui/material/Tooltip';
 
 
 
@@ -34,7 +35,14 @@ function Header() {
                                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                                 <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
                                 <Nav.Link href="https://buy.stripe.com/cN26ox1O4eMkf7ifYY" target={'_blank'} rel={'nonreferrer'}>Donate</Nav.Link>
-                                <a href="https://www.linkedin.com/in/reed-meher" target={'_blank'} rel={'nonreferrer'}><i class="fa-brands fa-linkedin-in"></i></a>
+                                <Tooltip title="visit LinkedIn page">
+                                    <a href="https://www.linkedin.com/in/reed-meher" target={'_blank'} rel={'nonreferrer'}><i class="fa-brands fa-linkedin-in"></i></a>
+                                </Tooltip>
+                                <Tooltip title="visit Github page">
+                                    <a className="github-icon" href="https://github.com/archonology" target={'_blank'} rel={'nonreferrer'}><i class="fa-brands fa-github-alt"></i></a>
+                                </Tooltip>
+
+
 
                             </Nav>
 

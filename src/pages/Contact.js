@@ -42,7 +42,7 @@ function Contact() {
       Sorry, ${name}, 
       the email is missing something. 
       Please check it and try again, 
-      thanks! 🪴
+      thanks!
       `);
             //  exit out of this code block if something is wrong so that the user can correct it
             return;
@@ -66,86 +66,88 @@ function Contact() {
 
         <div>
 
-            <Container className="p-5 m-2 contact">
-                <h2>Contact Reed</h2>
-                <p className=''>Have a web application you would like built? Interested in collaborating on a project?  Reach out! I would love to hear from you and answer any questions.</p>
+            <Container className="text-center p-5 mt-1 box">
+                <h2 className="heading">Contact</h2>
+                <hr></hr>
+                <p className="mainText">Have a web application you would like built? Interested in collaborating on a project?  Reach out! I would love to hear from you and answer any questions.</p>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <hr></hr>
-                <Grid
-                    container
-                    spacing={0}
-                    direction="column"
-                    alignItems="right"
-                    justifyContent="right"
-                    style={{ minHeight: "25vh" }}
-                >
-                    <Box
-                        sx={{
-                            display: "flex",
-                            color: "#fff",
-                        }}
-                    >
-                        <Grid item>
-                            <Box
-                                component="form"
-                                ref={form}
-                                sx={{
-                                    "& .MuiTextField-root": { m: 1, minWidth: "300px", }
-                                }}
-                                noValidate
-                                autoComplete="off"
-                                onSubmit={handleFormSubmit}
-                            >
-                                <div>
-                                    <TextField
-                                        id="contact-name-input"
-                                        label="Name"
-                                        type="text"
-                                        name="name"
-                                        value={name}
-                                        onChange={handleInputChange}
-                                    />
-                                </div>
-                                <div>
-                                    <TextField
-                                        id="contact-email-input"
-                                        label="Email"
-                                        type="text"
-                                        name="email"
-                                        value={email}
-                                        onChange={handleInputChange}
-                                    />
-                                </div>
-                                <div>
-                                    <TextField
-                                        id="contact-message-input"
-                                        label="Message"
-                                        type="text"
-                                        name="message"
-                                        value={message}
-                                        onChange={handleInputChange}
-                                        multiline
-                                        maxRows={20}
-                                    />
-                                </div>
-                                <div>
-                                    <Button
-                                        variant="contained"
-                                        type="submit"
-                                        color="success"
-                                        sx={{ m: 1 }}
-                                    >Send
-                                    </Button>
-                                </div>
-                            </Box>
-                        </Grid>
-                    </Box>
-                </Grid>
             </Container>
+
+
+            <Grid
+                container
+                spacing={0}
+                direction="column"
+                alignItems="center"
+                justifyContent="center"
+                style={{ minHeight: "25vh" }}
+            >
+                <Box
+                    sx={{
+                        display: "flex",
+                        color: "#fff",
+                    }}
+                >
+                    <Grid item>
+                        <Box
+                            component="form"
+                            ref={form}
+                            sx={{
+                                "& .MuiTextField-root": { m: 1, minWidth: "300px", }
+                            }}
+                            noValidate
+                            autoComplete="off"
+                            onSubmit={handleFormSubmit}
+                        >
+                            <div>
+                                <TextField
+                                    id="contact-name-input"
+                                    label="Name"
+                                    type="text"
+                                    name="name"
+                                    value={name}
+                                    onChange={handleInputChange}
+                                />
+                            </div>
+                            <div>
+                                <TextField
+                                    id="contact-email-input"
+                                    label="Email"
+                                    type="text"
+                                    name="email"
+                                    value={email}
+                                    onChange={handleInputChange}
+                                />
+                            </div>
+                            <div>
+                                <TextField
+                                    id="contact-message-input"
+                                    label="Message"
+                                    type="text"
+                                    name="message"
+                                    value={message}
+                                    onChange={handleInputChange}
+                                    multiline
+                                    maxRows={20}
+                                />
+                            </div>
+                            <div>
+                                <Button
+                                    variant="contained"
+                                    type="submit"
+                                    color="primary"
+                                    sx={{ m: 1 }}
+                                >Send
+                                </Button>
+                            </div>
+                        </Box>
+                    </Grid>
+                </Box>
+            </Grid>
 
             <script type="text/javascript"
                 src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">

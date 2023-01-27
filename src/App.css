@@ -1,9 +1,11 @@
 :root {
   --dawn100: rgb(254, 252, 248);
-  --lavendar100: rgb(252, 219, 252);
+  --lavendar100: rgb(254, 221, 254);
   --lavendar200: rgb(253, 184, 253);
   --lavendar300: rgb(254, 142, 254);
   --sky200: rgb(158, 194, 251);
+  --sky300: rgb(137, 180, 251);
+  --emerald100: rgb(161, 255, 151);
   --slate100: rgb(44, 45, 46);
   --slate200: rgba(20, 17, 23, 0.79);
   --slate300: rgb(40, 40, 41);
@@ -36,7 +38,9 @@ h5 {
 .mainText {
   color: var(--lavendar100);
   font-size: 18px;
-  text-shadow: 3px 4px 8px rgba(21, 21, 21, 0.952);
+  text-shadow: 1px 2px 24px rgb(21, 21, 21);
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 
@@ -51,6 +55,15 @@ img {
 a {
  color: var(--lavendar100);
 }
+
+.github-icon {
+  color: var(--sky200);
+  padding-left: 8px;
+}
+
+/* .resume {
+  color: var(--emerald100);
+} */
 
 i {
   padding-top: 10px;
@@ -125,6 +138,10 @@ a:hover {
 
 a:hover {
   color: var(--lavendar200);
+ }
+
+ .github-icon:hover {
+  color: var(--sky300);
  }
 
 
