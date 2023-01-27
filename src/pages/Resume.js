@@ -80,25 +80,14 @@ const Resume = () => {
                         allowScrollButtonsMobile
                         aria-label="scrollable Dashboard List Tabs"
                         indicatorColor="secondary">
-                        <Tab label="Experience" {...a11yProps(0)} />
-                        <Tab label="Languages" {...a11yProps(1)} />
-                        <Tab label="Skills" {...a11yProps(2)} />
+                        <Tab label="Languages" {...a11yProps(0)} />
+                        <Tab label="Skills" {...a11yProps(1)} />
+                        <Tab label="Experience" {...a11yProps(2)} />
                     </Tabs>
 
                 </Box>
 
                 <TabPanel value={value} index={0}>
-
-                    <Grid direction="row" container sx={{ padding: "2rem", marginBottom: "2rem" }}>
-                        <Grid container spacing={2} justifyContent="center">
-
-
-
-                        </Grid>
-                    </Grid>
-
-                </TabPanel>
-                <TabPanel value={value} index={1}>
 
                     <Grid direction="row" container sx={{ padding: "1rem", marginBottom: "1em" }}>
                         <Grid container spacing={2} justifyContent="center">
@@ -114,11 +103,114 @@ const Resume = () => {
                     </Grid>
 
                 </TabPanel>
+                <TabPanel value={value} index={1}>
+
+                    <Grid direction="row" container sx={{ padding: "1rem", marginBottom: "1em" }}>
+                        <Grid container spacing={2} justifyContent="center">
+
+                            <Grid item>
+                                <h3 className="icons">
+                                    <i class="fa-brands fa-react"> </i>
+                                    ReactJS
+                                </h3>
+                            </Grid>
+
+                            <Grid item>
+                                <h3 className="icons mt-2">
+                                    <i class="devicon-express-original"> </i>
+                                    ExpressJS
+                                </h3>
+                            </Grid>
+
+                            <Grid item>
+                                <h3 className="icons mt-2">
+                                    <i class="devicon-mongodb-plain"> </i>
+                                    MongoDB
+                                </h3>
+                            </Grid>
+
+                            <Grid item>
+                                <h3 className="icons mt-2">
+                                    <i class="devicon-nodejs-plain"> </i>
+                                    NodeJS
+                                </h3>
+                            </Grid>
+
+                            <Grid item>
+                                <h3 className="icons mt-2">
+                                    <i className="devicon-graphql-plain"> </i>
+                                    GraphQL
+                                </h3>
+                            </Grid>
+
+                            <Grid item>
+                                <h3 className="icons mt-2">
+                                    <i class="devicon-materialui-plain"> </i>
+                                    Material UI
+                                </h3>
+                            </Grid>
+
+                            <Grid item>
+                                <h3 className="icons mt-2">
+                                    <i class="devicon-bootstrap-plain"> </i>
+                                    Bootstrap
+                                </h3>
+                            </Grid>
+
+                            <Grid item>
+                                <h3 className="icons mt-2">
+                                    <i class="devicon-git-plain"> </i>
+                                    Git
+                                </h3>
+                            </Grid>
+
+                            <Grid item>
+                                <h3 className="icons mt-2">
+                                    <i class="devicon-webpack-plain"> </i>
+                                    Webpack
+                                </h3>
+                            </Grid>
+
+                            <Grid item>
+                                <h3 className="icons mt-2">
+                                    <i class="devicon-jest-plain"> </i>
+                                    Jest
+                                </h3>
+                            </Grid>
+
+                            <Grid item>
+                                <h3 className="icons mt-2">
+                                    <i class="devicon-mysql-plain"> </i>
+                                    mySQL
+                                </h3>
+                            </Grid>
+
+                            <Grid item>
+                                <h3 className="icons mt-2">
+                                    <i class="devicon-heroku-original"> </i>
+                                    Heroku
+                                </h3>
+                            </Grid>
+
+
+                        </Grid>
+                    </Grid>
+
+                </TabPanel>
+
                 <TabPanel value={value} index={2}>
 
-                    <Grid direction="row" container sx={{ padding: "2rem", marginBottom: "1em" }}>
-                        <Grid container spacing={2} justifyContent="center">
-                            {/* video card 1 */}
+                    <Grid flexdirection="row" container sx={{ padding: "1rem", marginBottom: "2rem" }}>
+                        <Grid container spacing={2} textAlign="center" justifyContent="center" className="exp" >
+
+                            <Grid item xs={12}><h5>3 full-stack team coding projects</h5></Grid>
+                            <Grid item xs={12}><h5>Over 15 solo coding projects</h5></Grid>
+                            <Grid item xs={12}><h5>12+ years project management skills</h5></Grid>
+                            <Grid item xs={12}><h5>12+ years leadership experience</h5></Grid>
+    
+
+
+
 
 
                         </Grid>
