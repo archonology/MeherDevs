@@ -10,13 +10,12 @@ function Footer() {
 
     return (
         <>
-            <Navbar  variant="dark" className="p-2 pb-3 footer" fixed="bottom">
+            <Navbar bg="transparent" variant="dark" className="p-2 mb-3 footer" sticky="bottom">
                 <Container fluid >
 
                     <Nav className="justify-content-center flex-grow-1 pe-3">
 
-                        <Nav.Link href="#top">Return to Top</Nav.Link>
-                        <Nav.Link href="/" className="meherdevs">Reed Meher | 2023</Nav.Link>
+                        <Nav.Link href="#top" className="meherdevs">MeherDevs | 2023</Nav.Link>
 
                     </Nav>
 

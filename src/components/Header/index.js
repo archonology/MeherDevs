@@ -34,6 +34,7 @@ function Header() {
                                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                                 <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
                                 <Nav.Link href="https://buy.stripe.com/cN26ox1O4eMkf7ifYY" target={'_blank'} rel={'nonreferrer'}>Donate</Nav.Link>
+                                <a href="https://www.linkedin.com/in/reed-meher" target={'_blank'} rel={'nonreferrer'}><i class="fa-brands fa-linkedin-in"></i></a>
 
                             </Nav>
 
