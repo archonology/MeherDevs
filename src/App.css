@@ -20,7 +20,6 @@ html body {
   color: var(--dawn100);
 }
 
-
 .footspace {
   margin-bottom: 1em;
 }
@@ -90,7 +89,6 @@ background-color: var(--slate200);
 box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
 border: none;
 text-align: center;
-/* max-width: 500px; */
 border-radius: 10px;
 
 }

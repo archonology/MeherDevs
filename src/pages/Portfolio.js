@@ -91,10 +91,10 @@ const Portfolio = () => {
 
                 <TabPanel value={value} index={0}>
 
-                    <Grid spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-                        <Grid container spacing={3} justifyContent="center">
+                    <Grid >
+                        <Grid container spacing={{ xs: 2, md: 2 }} columns={{ xs: 4, sm: 12, md: 10 }} justifyContent="center">
 
-                            <Grid item xs={12} sm={6} md={4}>
+                            <Grid item xs={12} sm={6} md={3}>
                                 <div className="card">
                                     <img src={CWP} alt="child welfare portal" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -106,7 +106,7 @@ const Portfolio = () => {
                                     </CardActions>
                                 </div>
                             </Grid>
-                            <Grid item xs={12} sm={6} md={4}>
+                            <Grid item xs={12} sm={6} md={3}>
                                 <div className="card">
                                     <img src={Prima} alt="prima materia" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -119,7 +119,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={12} sm={6} md={4}>
+                            <Grid item xs={12} sm={6} md={3}>
                                 <div className="card">
                                     <img src={Hparty} alt="home party" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -132,7 +132,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={12} sm={6} md={4}>
+                            <Grid item xs={12} sm={6} md={3}>
                                 <div className="card">
                                     <img src={Wandering} alt="wandering comma" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -145,7 +145,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={12} sm={6} md={4}>
+                            <Grid item xs={12} sm={6} md={3}>
                                 <div className="card">
                                     <img src={BookSearch} alt="booksearch" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -158,7 +158,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={12} sm={6} md={4}>
+                            <Grid item xs={12} sm={6} md={3}>
                                 <div className="card">
                                     <img src={PWA} alt="pwq text-editor" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -178,11 +178,11 @@ const Portfolio = () => {
                 </TabPanel>
                 <TabPanel value={value} index={1}>
 
-                <Grid spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-                        <Grid container spacing={3} justifyContent="center">
+                    <Grid >
+                        <Grid container spacing={{ xs: 2, md: 2 }} columns={{ xs: 4, sm: 12, md: 10 }} justifyContent="center">
 
 
-                            <Grid item xs={12} sm={6} md={4}>
+                            <Grid item xs={12} sm={6} md={3}>
                                 <div className="card">
                                     <img src={NightIn} alt="a night in" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -195,7 +195,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={12} sm={6} md={4}>
+                            <Grid item xs={12} sm={6} md={3}>
                                 <div className="card">
                                     <img src={weather} alt="weather dashboard" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -208,21 +208,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={12} sm={6} md={4}>
-                                <div className="card">
-                                    <img src={drumkit} alt="drumkit app" className="portfolio-img m-3"></img>
-                                    <hr></hr>
-                                    <h5>JS Drum Kit</h5>
-                                    <p className="taller">A typing drumkit built with vanilla JS and CSS only. Users can rock out on their keyboard.</p><br></br>
-                                    <CardActions>
-                                        <Button href="https://archonology.github.io/drum-kit/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                        <Button href="https://github.com/archonology/drum-kit" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
-                                    </CardActions>
-                                </div>
-                            </Grid>
-
-
-                            <Grid item xs={12} sm={6} md={4}>
+                            <Grid item xs={12} sm={6} md={3}>
                                 <div className="card">
                                     <img src={clock} alt="clock app" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -235,7 +221,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={12} sm={6} md={4}>
+                            <Grid item xs={12} sm={6} md={3}>
                                 <div className="card">
                                     <img src={scheduler} alt="work day scheduler" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -247,7 +233,19 @@ const Portfolio = () => {
                                     </CardActions>
                                 </div>
                             </Grid>
-
+                            
+                            <Grid item xs={12} sm={6} md={3}>
+                                <div className="card">
+                                    <img src={drumkit} alt="drumkit app" className="portfolio-img m-3"></img>
+                                    <hr></hr>
+                                    <h5>JS Drum Kit</h5>
+                                    <p className="taller">A typing drumkit built with vanilla JS and CSS only. Users can rock out on their keyboard.</p><br></br>
+                                    <CardActions>
+                                        <Button href="https://archonology.github.io/drum-kit/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
+                                        <Button href="https://github.com/archonology/drum-kit" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
+                                    </CardActions>
+                                </div>
+                            </Grid>
 
                         </Grid>
                     </Grid>
