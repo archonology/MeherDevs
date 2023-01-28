@@ -91,10 +91,10 @@ const Portfolio = () => {
 
                 <TabPanel value={value} index={0}>
 
-                    <Grid direction="row" container sx={{ padding: "2rem", marginBottom: "2rem" }}>
+                    <Grid spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                         <Grid container spacing={3} justifyContent="center">
 
-                            <Grid item >
+                            <Grid item xs={12} sm={6} md={4}>
                                 <div className="card">
                                     <img src={CWP} alt="child welfare portal" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -106,12 +106,12 @@ const Portfolio = () => {
                                     </CardActions>
                                 </div>
                             </Grid>
-                            <Grid item >
+                            <Grid item xs={12} sm={6} md={4}>
                                 <div className="card">
                                     <img src={Prima} alt="prima materia" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>Prima Materia</h5>
-                                    <p>A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with the <span>MERN stack</span> and utilizes <span>GraphQL</span> practices.</p>
+                                    <p className="mb-4">A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with the <span>MERN stack</span> and utilizes <span>GraphQL</span> practices.</p>
                                     <CardActions>
                                         <Button href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/Prima-Materia" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Repo</Button>
@@ -119,12 +119,12 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item >
+                            <Grid item xs={12} sm={6} md={4}>
                                 <div className="card">
                                     <img src={Hparty} alt="home party" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>Home Party</h5>
-                                    <p>Built collaboratively, Home Party is a place to invite your family and friends for tracking real estate. Utilizes <span>MySQL, Sequelize, Node, Javascript, Bootstrap, Nodemailer, custom CSS, and HTML.</span></p>
+                                    <p className="tall">Built collaboratively, Home Party is a place to invite your family and friends for tracking real estate. Utilizes <span>MySQL, Sequelize, Node, Javascript, Bootstrap, Nodemailer, custom CSS, and HTML.</span></p>
                                     <CardActions>
                                         <Button href="https://home-party-app.herokuapp.com" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/Home-Party" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
@@ -132,7 +132,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item >
+                            <Grid item xs={12} sm={6} md={4}>
                                 <div className="card">
                                     <img src={Wandering} alt="wandering comma" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -145,12 +145,12 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item>
+                            <Grid item xs={12} sm={6} md={4}>
                                 <div className="card">
                                     <img src={BookSearch} alt="booksearch" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>Book Search</h5>
-                                    <p className="mb-5">A study in refactoring RESTful API to GraphQL API practices, this book search tool tackles the joy of using the <span>MERN stack</span> for searching fetch APIs. Allows users to login and manage a booklist.</p>
+                                    <p className="tall">A study in refactoring RESTful API to GraphQL API practices, this book search tool tackles the joy of using the <span>MERN stack</span> for searching fetch APIs. Allows users to login and manage a booklist.</p>
                                     <CardActions>
                                         <Button href="https://book-search-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/Book-Search-with-MERN" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
@@ -158,7 +158,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item >
+                            <Grid item xs={12} sm={6} md={4}>
                                 <div className="card">
                                     <img src={PWA} alt="pwq text-editor" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -178,11 +178,11 @@ const Portfolio = () => {
                 </TabPanel>
                 <TabPanel value={value} index={1}>
 
-                    <Grid direction="row" container sx={{ padding: "2rem", marginBottom: "1em" }}>
+                <Grid spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                         <Grid container spacing={3} justifyContent="center">
 
 
-                            <Grid item >
+                            <Grid item xs={12} sm={6} md={4}>
                                 <div className="card">
                                     <img src={NightIn} alt="a night in" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -195,12 +195,12 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item >
+                            <Grid item xs={12} sm={6} md={4}>
                                 <div className="card">
                                     <img src={weather} alt="weather dashboard" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>Weather Dashboard</h5>
-                                    <p className="tall">A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.</p>
+                                    <p className="mb-2">A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.</p><br></br>
                                     <CardActions>
                                         <Button href="https://archonology.github.io/Weather-Dashboard/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/Weather-Dashboard" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
@@ -208,12 +208,12 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item >
+                            <Grid item xs={12} sm={6} md={4}>
                                 <div className="card">
                                     <img src={drumkit} alt="drumkit app" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>JS Drum Kit</h5>
-                                    <p>A typing drumkit built with vanilla JS and CSS only. Users can rock out on their keyboard.</p><br></br>
+                                    <p className="taller">A typing drumkit built with vanilla JS and CSS only. Users can rock out on their keyboard.</p><br></br>
                                     <CardActions>
                                         <Button href="https://archonology.github.io/drum-kit/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/drum-kit" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
@@ -222,12 +222,12 @@ const Portfolio = () => {
                             </Grid>
 
 
-                            <Grid item >
+                            <Grid item xs={12} sm={6} md={4}>
                                 <div className="card">
                                     <img src={clock} alt="clock app" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>JS Clock App</h5>
-                                    <p>An operational clock built with vanilla JS and CSS only. Keep track of your coding hours.</p><br></br>
+                                    <p className="taller">An operational clock built with vanilla JS and CSS only. Keep track of your coding hours.</p><br></br>
                                     <CardActions>
                                         <Button href="https://archonology.github.io/Clock-App/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/Clock-App" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
@@ -235,12 +235,12 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item >
+                            <Grid item xs={12} sm={6} md={4}>
                                 <div className="card">
                                     <img src={scheduler} alt="work day scheduler" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>Work Day Scheduler</h5>
-                                    <p className="mb-5">A scheduling application that tracks the current day and time and allows a user to create and save persistent time events.<span>Utilizes Javascript, localStorage, and CSS</span></p>
+                                    <p className="talltall">A scheduling application that tracks the current day and time and allows a user to create and save persistent time events.<span>Utilizes Javascript, localStorage, and CSS</span></p>
                                     <CardActions>
                                         <Button href="https://archonology.github.io/Work-Day-Scheduler/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/Work-Day-Scheduler" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>

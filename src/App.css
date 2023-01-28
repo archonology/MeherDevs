@@ -49,7 +49,6 @@ h5 {
 img {
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
   margin-bottom: 1em;
-  min-width: 375px;
   border-radius: 10px;
 }
 
@@ -86,19 +85,26 @@ i {
 }
 
 .card {
-padding: 12px;
-padding-bottom: 1em;
+padding: 1em;
 background-color: var(--slate200);
 box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
 border: none;
 text-align: center;
-max-width: 500px;
+/* max-width: 500px; */
 border-radius: 10px;
 
 }
 
 .tall{
   margin-bottom: 2.5em;
+}
+
+.talltall{
+  margin-bottom: 4.5em;
+}
+
+.taller{
+  margin-bottom: 5.5em;
 }
 
 .video-card {
