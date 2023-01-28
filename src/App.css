@@ -56,6 +56,7 @@ img {
 
 a {
  color: var(--lavendar100);
+ text-decoration: none;
 }
 
 .github-icon {
@@ -158,6 +159,7 @@ a:hover {
 
 a:hover {
   color: var(--lavendar200);
+  text-decoration: none;
  }
 
  .github-icon:hover {

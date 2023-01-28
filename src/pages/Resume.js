@@ -81,7 +81,7 @@ const Resume = () => {
                         indicatorColor="secondary">
                         <Tab label="Languages" {...a11yProps(0)} />
                         <Tab label="Skills" {...a11yProps(1)} />
-                        <Tab label="Experience" {...a11yProps(2)} />
+                        <Tab label="Education" {...a11yProps(2)} />
                     </Tabs>
 
                 </Box>
@@ -200,17 +200,26 @@ const Resume = () => {
                 <TabPanel value={value} index={2}>
 
                     <Grid flexdirection="row" container sx={{ padding: "1rem", marginBottom: "1rem" }}>
-                        <Grid container spacing={2} textAlign="center" justifyContent="center" className="exp" >
+                        <Grid container spacing={2} textAlign="left" justifyContent="left" className="exp" >
 
-                            <Grid item xs={12}><h5>3 full-stack team coding projects</h5></Grid>
-                            <Grid item xs={12}><h5>Over 15 solo coding projects</h5></Grid>
-                            <Grid item xs={12}><h5>12+ years project management skills</h5></Grid>
-                            <Grid item xs={12}><h5>12+ years leadership experience</h5></Grid>
-    
+                            <div className='row m-1 mt-0 p-4'>
+                                <h3><a href="https://www.credly.com/badges/38a79ed6-ec04-410f-9ba1-f54002812bf5/public_url" target={'_blank'} rel={'nonreferrer'}><strong>Full Stack Web Development Certificate</strong></a>
+                                    <br></br>
+                                    University of MN • June 2022 - December 2022 </h3>
+                                <p>
+                                    A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, NoSQL, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS (MERN and RESTFul practices).
+                                </p>
+                                <p> <strong>GPA: 4.0+</strong></p>
+                                <hr></hr>
+                                <h3><a href="https://morris.umn.edu/" target={'_blank'} rel={'nonreferrer'}><strong>Bachelor's of Fine Arts</strong></a>
+                                    <br></br>
+                                    University of MN, Morris • August 2004 - June 2008</h3>
+                                <br></br>
+                                <p>
+                                    English Literature with a minor in Studio Art.  <strong>GPA: 3.74</strong>
+                                </p>
 
-
-
-
+                            </div>
 
                         </Grid>
                     </Grid>
@@ -218,7 +227,6 @@ const Resume = () => {
                 </TabPanel>
 
             </Box>
-
 
         </>
 
