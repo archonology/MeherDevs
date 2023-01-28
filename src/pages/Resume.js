@@ -63,7 +63,6 @@ const Resume = () => {
                     </span>
                 </h2>
                 <hr></hr>
-                <p className="mainText">Below you can check out some of my favorite, recent projects.  The first 6 are full stack or frontend; below that, you'll find demos to my favorite backend applications.</p>
             </Container>
 
             <Box sx={{ width: '100%', marginTop: 0 }}>
@@ -105,7 +104,7 @@ const Resume = () => {
                 </TabPanel>
                 <TabPanel value={value} index={1}>
 
-                    <Grid direction="row" container sx={{ padding: "1rem", marginBottom: "1em" }}>
+                    <Grid direction="row" container sx={{ padding: "1rem" }}>
                         <Grid container spacing={2} justifyContent="center">
 
                             <Grid item>
@@ -200,7 +199,7 @@ const Resume = () => {
 
                 <TabPanel value={value} index={2}>
 
-                    <Grid flexdirection="row" container sx={{ padding: "1rem", marginBottom: "2rem" }}>
+                    <Grid flexdirection="row" container sx={{ padding: "1rem", marginBottom: "1rem" }}>
                         <Grid container spacing={2} textAlign="center" justifyContent="center" className="exp" >
 
                             <Grid item xs={12}><h5>3 full-stack team coding projects</h5></Grid>

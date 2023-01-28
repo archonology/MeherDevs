@@ -7,16 +7,19 @@
   --sky200: rgb(158, 194, 251);
   --sky300: rgb(137, 180, 251);
   --emerald100: rgb(161, 255, 151);
+  --emerald200: rgb(121, 251, 106);
   --slate100: rgb(44, 45, 46);
   --slate200: rgba(20, 17, 23, 0.79);
   --slate300: rgb(40, 40, 41);
 }
 
 html body {
-  background-image: url(../media/IMG_1637.JPG);
+  /* background-image: url(../media/IMG_1637.JPG); */
+  background-color: var(--slate300);
   background-position: fixed;
   color: var(--dawn100);
 }
+
 
 .footspace {
   margin-bottom: 1em;
@@ -28,27 +31,25 @@ html body {
 
 .heading {
   font-size: 48px;
-  /* text-shadow: var(--slate) 10px, 8px 10px; */
 }
 
 h5 {
-  /* font-style: italic; */
   font-size: 23px;
 }
 
 .mainText {
-  color: var(--lavendar100);
+  color: var(--sky100);
   font-size: 18px;
   text-shadow: 1px 2px 24px rgb(21, 21, 21);
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 
 img {
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
   margin-bottom: 1em;
-  max-width: 500px;
+  min-width: 375px;
   border-radius: 10px;
   /* border: solid var(--slate200) 1px; */
 }
@@ -59,11 +60,28 @@ a {
 
 .github-icon {
   color: var(--sky200);
-  padding-left: 8px;
+  /* padding-left: 8px; */
+}
+
+.resume {
+  color: var(--emerald100);
+}
+
+.resume:hover {
+  color: var(--emerald200);
 }
 
 .exp {
   text-shadow: 1px 2px 24px rgb(21, 21, 21);
+}
+
+span {
+  color: var(--lavendar100);
+}
+
+.portrait {
+  min-width: 100px;
+  max-width: 275px;
 }
 
 i {

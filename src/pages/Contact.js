@@ -66,10 +66,10 @@ function Contact() {
 
         <div>
 
-            <Container className="text-center p-5 mt-1 box">
+            <Container className="text-center p-4 ">
                 <h2 className="heading">Contact</h2>
                 <hr></hr>
-                <p className="mainText">Have a web application you would like built? Interested in collaborating on a project?  Reach out! I would love to hear from you and answer any questions.</p>
+                <p className="mainText">Questions? Answers? Cool things?</p>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
@@ -97,7 +97,7 @@ function Contact() {
                             component="form"
                             ref={form}
                             sx={{
-                                "& .MuiTextField-root": { m: 1, minWidth: "300px", }
+                                "& .MuiTextField-root": { m: 1, minWidth: "400px", }
                             }}
                             noValidate
                             autoComplete="off"

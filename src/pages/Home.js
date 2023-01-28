@@ -8,8 +8,9 @@ const Home = () => {
       <Container className="text-center p-5 mt-5 box">
         <h1 className="welcome">MeherDevs</h1>
    <hr></hr>
-        <h5>a Portfolio by Reed Meher</h5>
-        <p className="mainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium lectus quam id leo in vitae turpis. Auctor urna nunc id cursus metus aliquam eleifend mi in. Turpis egestas sed tempus urna.</p>
+        <p className="mainText">
+            MeherDevs is <span>Reed Meher</span>: a budding full stack and frontend developer seeking compelling projects, dynamic teamwork, and new ideas.  On this site you will find Reed's development portfolio, a contact form, his resume, and links to his Github and LinkedIn pages. 
+          </p>
       </Container>
 
         {/* <Grid direction="row" container sx={{ padding: "2rem" }}>

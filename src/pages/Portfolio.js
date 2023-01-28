@@ -56,10 +56,10 @@ const Portfolio = () => {
 
     return (
         <>
-            <Container className="text-center p-5 mt-1 box">
+            <Container className="text-center p-4">
                 <h2 className="heading">Portfolio</h2>
                 <hr></hr>
-                <p className="mainText">Below you can check out some of my favorite, recent projects.  The first 6 are full stack or frontend; below that, you'll find demos to my favorite backend applications.</p>
+                {/* <p className="mainText">Below you can check out some of my favorite, recent projects.  The first 6 are full stack or frontend; below that, you'll find demos to my favorite backend applications.</p> */}
             </Container>
 
             <Box sx={{ width: '100%', marginTop: 0 }}>
@@ -86,7 +86,7 @@ const Portfolio = () => {
                 <TabPanel value={value} index={0}>
 
                     <Grid direction="row" container sx={{ padding: "2rem", marginBottom: "2rem" }}>
-                        <Grid container spacing={2} justifyContent="center">
+                        <Grid container spacing={3} justifyContent="center">
 
                             <Grid item >
                                 <div className="card">
@@ -95,8 +95,8 @@ const Portfolio = () => {
                                     <h5>Child Welfare Portal</h5>
                                     <p>A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with React and utilizes GraphQL API practices.</p>
                                     <CardActions>
-                                        <Button href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="secondary">Visit the Site</Button>
-                                        <Button href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'} color="secondary">See the Repo in Github</Button>
+                                        <Button href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
+                                        <Button href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -107,8 +107,8 @@ const Portfolio = () => {
                                     <h5>Child Welfare Portal</h5>
                                     <p>A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with React and utilizes GraphQL API practices.</p>
                                     <CardActions>
-                                        <Button href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="secondary">Visit the Site</Button>
-                                        <Button href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'} color="secondary">See the Repo in Github</Button>
+                                        <Button href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
+                                        <Button href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Repo</Button>
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -120,8 +120,8 @@ const Portfolio = () => {
                                     <h5>Child Welfare Portal</h5>
                                     <p>A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with React and utilizes GraphQL API practices.</p>
                                     <CardActions>
-                                        <Button href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="secondary">Visit the Site</Button>
-                                        <Button href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'} color="secondary">See the Repo in Github</Button>
+                                        <Button href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
+                                        <Button href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -133,8 +133,8 @@ const Portfolio = () => {
                                     <h5>Child Welfare Portal</h5>
                                     <p>A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with React and utilizes GraphQL API practices.</p>
                                     <CardActions>
-                                        <Button href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="secondary">Visit the Site</Button>
-                                        <Button href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'} color="secondary">See the Repo in Github</Button>
+                                        <Button href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
+                                        <Button href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -157,8 +157,8 @@ const Portfolio = () => {
                                     <h5>Child Welfare Portal</h5>
                                     <p>A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with React and utilizes GraphQL API practices.</p>
                                     <CardActions>
-                                        <Button href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="secondary">Visit the Site</Button>
-                                        <Button href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'} color="secondary">See the Repo in Github</Button>
+                                        <Button href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
+                                        <Button href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -186,8 +186,8 @@ const Portfolio = () => {
                                     <h5 className="card-title">Bubble World</h5>
                                     <p className="card-text">An experiment in understanding and developing a social media app. Bubble World is a backend application that utilizes MongoDB, Mongoose, and Express to explore the possiblities of social media.</p>
                                     <CardActions>
-                                        <Button href="https://github.com/archonology/Bubble-World" target={'_blank'} rel={'nonreferrer'} color="secondary">Visit the Repo</Button>
-                                        <Button href="https://youtu.be/5A9lBIHdNGY" target={'_blank'} rel={'nonreferrer'} color="secondary">Watch the Demo</Button>
+                                        <Button href="https://github.com/archonology/Bubble-World" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Repo</Button>
+                                        <Button href="https://youtu.be/5A9lBIHdNGY" target={'_blank'} rel={'nonreferrer'} color="primary">Watch the Demo</Button>
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -208,8 +208,8 @@ const Portfolio = () => {
                                     <h5 className="card-title">eCommerce</h5>
                                     <p className="card-text">Back end application to develop my skill in back end technologies and learn about managing ORM techniques.</p>
                                     <CardActions>
-                                        <Button href="https://github.com/archonology/E-Commerce-Back-End" target={'_blank'} rel={'nonreferrer'} color="secondary">Visit the Repo</Button>
-                                        <Button href="https://youtu.be/L7r7JGepZZ4" target={'_blank'} rel={'nonreferrer'} color="secondary">Watch the Demo</Button>
+                                        <Button href="https://github.com/archonology/E-Commerce-Back-End" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Repo</Button>
+                                        <Button href="https://youtu.be/L7r7JGepZZ4" target={'_blank'} rel={'nonreferrer'} color="primary">Watch the Demo</Button>
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -221,8 +221,8 @@ const Portfolio = () => {
                                     <h5 className="card-title">Team Generator</h5>
                                     <p className="card-text">I wanted to be able to generate an html page for team projects. Having a page to keep track of my group helps keep things organized and makes it easy to find contact info for my team and important links, like their github accounts or school info.</p>
                                     <CardActions>
-                                        <Button href="https://github.com/archonology/Team-Profile-Generator" target={'_blank'} rel={'nonreferrer'} color="secondary">Visit the Repo</Button>
-                                        <Button href="https://youtu.be/ZaHrOHW6bLg" target={'_blank'} rel={'nonreferrer'} color="secondary">Watch the Demo</Button>
+                                        <Button href="https://github.com/archonology/Team-Profile-Generator" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Repo</Button>
+                                        <Button href="https://youtu.be/ZaHrOHW6bLg" target={'_blank'} rel={'nonreferrer'} color="primary">Watch the Demo</Button>
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -233,8 +233,8 @@ const Portfolio = () => {
                                     <h5 className="card-title">Employee Library</h5>
                                     <p className="card-text">Backend employee database management program. Solves the need for managing an employee database easily through the backend.</p>
                                     <CardActions>
-                                        <Button href="https://github.com/archonology/Employee-Library" target={'_blank'} rel={'nonreferrer'} color="secondary">Visit the Repo</Button>
-                                        <Button href="https://youtu.be/r-aP_ufH47U" target={'_blank'} rel={'nonreferrer'} color="secondary">Watch the Demo</Button>
+                                        <Button href="https://github.com/archonology/Employee-Library" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Repo</Button>
+                                        <Button href="https://youtu.be/r-aP_ufH47U" target={'_blank'} rel={'nonreferrer'} color="primary">Watch the Demo</Button>
                                     </CardActions>
                                 </div>
                             </Grid>
