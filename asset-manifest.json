@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.416156c8.css",
+    "main.js": "/static/js/main.bdc32413.js",
+    "static/js/787.a7d97ceb.chunk.js": "/static/js/787.a7d97ceb.chunk.js",
+    "static/media/PortraitGif.gif": "/static/media/PortraitGif.142538bec5e43cce6b1c.gif",
+    "static/media/drumkit.png": "/static/media/drumkit.b2427e927031c9131662.png",
+    "static/media/prima-materia-home.jpg": "/static/media/prima-materia-home.835ccd374f37f0e70ec6.jpg",
+    "static/media/home-party-page.jpg": "/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
+    "static/media/booksearch-pic.jpg": "/static/media/booksearch-pic.abb897cec4ed3828233c.jpg",
+    "static/media/ChildWelfarePortal.jpg": "/static/media/ChildWelfarePortal.d2fbc7d9af27860de127.jpg",
+    "static/media/IMG_4904.jpeg": "/static/media/IMG_4904.97fcc893082570a4dd10.jpeg",
+    "static/media/scheduler.jpg": "/static/media/scheduler.02125173aa7881650ae1.jpg",
+    "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.60ce3d625d4f6fb62dd6.jpg",
+    "static/media/jsclock.png": "/static/media/jsclock.dcf89b47bd9c61baafdc.png",
+    "static/media/a-night-in-page.jpg": "/static/media/a-night-in-page.a077afed328e2ae96e36.jpg",
+    "static/media/wandering-comma.jpg": "/static/media/wandering-comma.928ef04ff0ef7acd9d48.jpg",
+    "static/media/pwa-text-editor.jpg": "/static/media/pwa-text-editor.e28e733eeed15bc10704.jpg",
+    "static/media/reedMeherResume.pdf": "/static/media/reedMeherResume.741fa851a74da615818c.pdf",
+    "index.html": "/index.html",
+    "main.416156c8.css.map": "/static/css/main.416156c8.css.map",
+    "main.bdc32413.js.map": "/static/js/main.bdc32413.js.map",
+    "787.a7d97ceb.chunk.js.map": "/static/js/787.a7d97ceb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.416156c8.css",
+    "static/js/main.bdc32413.js"
+  ]
+}
