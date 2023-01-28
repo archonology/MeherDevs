@@ -200,7 +200,7 @@ const Portfolio = () => {
                                     <img src={weather} alt="weather dashboard" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>Weather Dashboard</h5>
-                                    <p>A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.</p>
+                                    <p className="tall">A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.</p>
                                     <CardActions>
                                         <Button href="https://archonology.github.io/Weather-Dashboard/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/Weather-Dashboard" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
