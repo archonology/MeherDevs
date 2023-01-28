@@ -1,7 +1,7 @@
 # MeherDevs Portfolio
 
 ## Links
-View the deployed site: https://www.meherdevs.com/
+View the deployed site: https://www.meherdevs.com
 
 ## Screenshot
 ![screenshot](./src/projectImages/MeherDevs.png)    
