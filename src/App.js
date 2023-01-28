@@ -31,11 +31,11 @@ function App() {
           <div className="footspace">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/resume" element={<Resume />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/*" element={<Home />} />
+              <Route path="portfolio" element={<Portfolio />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="resume" element={<Resume />} />
+              <Route path="about" element={<About />} />
+              <Route path="*" element={<Home />} />
             </Routes>
           </div>
           <div >
@@ -46,5 +46,6 @@ function App() {
 
   );
 }
+
 
 export default App;
