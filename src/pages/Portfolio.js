@@ -153,7 +153,7 @@ const Portfolio = () => {
                                 <img src={Hparty} alt="home party" className="portfolio-img m-3"></img>
                                 <hr></hr>
                                 <h5>Home Party</h5>
-                                <p>Built collaboratively, Home Party is a place to invite your family and friends for tracking real estate. Utilizes <span>MySQL, Sequelize, Node, Javascript, Bootstrap, Nodemailer, custom CSS, and HTML.</span></p>
+                                <p>Built collaboratively, Home Party is a place to invite your family and friends for tracking real estate. Utilizes <span>MySQL, Sequelize, Node, Bootstrap, and Nodemailer.</span></p>
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
@@ -178,7 +178,7 @@ const Portfolio = () => {
                                 <img src={Wandering} alt="wandering comma" className="portfolio-img m-3"></img>
                                 <hr></hr>
                                 <h5>The Wandering Comma</h5>
-                                <p>A full stack tech blog created with RESTful practices. Users can logon, leave comments and make posts. Utilizes <span>MySQL, Sequelize, Express, Node, Javascript, Bootstrap, custom CSS, and HTML.</span></p>
+                                <p>A full stack tech blog created with RESTful practices. Users can leave comments and make posts. Utilizes <span>MySQL, Sequelize, Express, Node, and Bootstrap.</span></p>
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
@@ -229,7 +229,7 @@ const Portfolio = () => {
                                 <hr></hr>
                                 <h5>PWA Text Editor</h5>
                                 <p>A full stack PWA text editor. You can save it to your local device (via Chrome) <span> Uses Webpack, Workbox, Express, Idb,</span> and more.</p>
-                                
+
                                 <CardActions sx={{ justifyContent: "center" }}>
 
                                     <Tooltip title="Visit Site">
@@ -264,10 +264,22 @@ const Portfolio = () => {
                                     <img src={NightIn} alt="a night in" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>A Night In</h5>
-                                    <p>Built collaboratively on Github. This app will help a user find culinary and media inspiration through randomized searches to find ideas. <span>Javascript, Tailwind, JQUERY, custom CSS, HTML, localStorage, and public fetch APIs.</span></p>
-                                    <CardActions>
-                                        <Button href="https://archonology.github.io/A-Night-In/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                        <Button href="https://github.com/archonology/A-Night-In" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
+                                    <p>Built collaboratively on Github. This app will help a user find culinary and media inspiration through randomized searches to find ideas. <span>Tailwind, JQUERY, and webAPI.</span></p>
+
+                                    <CardActions sx={{ justifyContent: "center" }}>
+
+                                        <Tooltip title="Visit Site">
+                                            <IconButton className="" href="https://archonology.github.io/A-Night-In/" target={'_blank'} rel={'nonreferrer'}>
+                                                <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
+                                        <Tooltip title="visit Github page">
+                                            <IconButton className="" href="https://github.com/archonology/A-Night-In" target={'_blank'} rel={'nonreferrer'}>
+                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -277,36 +289,48 @@ const Portfolio = () => {
                                     <img src={weather} alt="weather dashboard" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>Weather Dashboard</h5>
-                                    <p>A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.</p>
-                                    <CardActions>
-                                        <Button href="https://archonology.github.io/Weather-Dashboard/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                        <Button href="https://github.com/archonology/Weather-Dashboard" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
+                                    <p>A weather tracking website that uses <span>webAPI</span> tools. Weather searches can easily check & track weather updates while they're traveling.</p>
+
+                                    <CardActions sx={{ justifyContent: "center" }}>
+
+                                        <Tooltip title="Visit Site">
+                                            <IconButton className="" href="https://archonology.github.io/Weather-Dashboard/" target={'_blank'} rel={'nonreferrer'}>
+                                                <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
+                                        <Tooltip title="visit Github page">
+                                            <IconButton className="" href="https://github.com/archonology/Weather-Dashboard" target={'_blank'} rel={'nonreferrer'}>
+                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
                                     </CardActions>
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5} md={4} lg={3}>
-                                <div className="card">
-                                    <img src={clock} alt="clock app" className="portfolio-img m-3"></img>
-                                    <hr></hr>
-                                    <h5>JS Clock App</h5>
-                                    <p>An operational clock built with vanilla JS and CSS only. Keep track of your coding hours.</p>
-                                    <CardActions>
-                                        <Button href="https://archonology.github.io/Clock-App/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                        <Button href="https://github.com/archonology/Clock-App" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
-                                    </CardActions>
-                                </div>
-                            </Grid>
 
                             <Grid item xs={10} sm={5} md={4} lg={3}>
                                 <div className="card">
                                     <img src={scheduler} alt="work day scheduler" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>Work Day Scheduler</h5>
-                                    <p>A scheduling application that tracks the current day and time and allows a user to create and save persistent time events.<span>Utilizes Javascript, localStorage, and CSS</span></p>
-                                    <CardActions>
-                                        <Button href="https://archonology.github.io/Work-Day-Scheduler/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                        <Button href="https://github.com/archonology/Work-Day-Scheduler" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
+                                    <p>A scheduling application that tracks the current day and time and allows a user to create and save persistent time events via <span>webAPI</span> tools.</p>
+
+                                    <CardActions sx={{ justifyContent: "center" }}>
+
+                                        <Tooltip title="Visit Site">
+                                            <IconButton className="" href="https://archonology.github.io/Work-Day-Scheduler/" target={'_blank'} rel={'nonreferrer'}>
+                                                <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
+                                        <Tooltip title="visit Github page">
+                                            <IconButton className="" href="https://github.com/archonology/Work-Day-Scheduler" target={'_blank'} rel={'nonreferrer'}>
+                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -316,10 +340,22 @@ const Portfolio = () => {
                                     <img src={drumkit} alt="drumkit app" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>JS Drum Kit</h5>
-                                    <p>A typing drumkit built with vanilla JS and CSS only. Users can rock out on their keyboard.</p>
-                                    <CardActions>
-                                        <Button href="https://archonology.github.io/drum-kit/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                        <Button href="https://github.com/archonology/drum-kit" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
+                                    <p>A typing drumkit built with <span>vanilla JS</span> and <span>CSS</span> only. Users can rock out on their keyboard.</p>
+
+                                    <CardActions sx={{ justifyContent: "center" }}>
+
+                                        <Tooltip title="Visit Site">
+                                            <IconButton className="" href="https://archonology.github.io/drum-kit/" target={'_blank'} rel={'nonreferrer'}>
+                                                <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
+                                        <Tooltip title="visit Github page">
+                                            <IconButton className="" href="https://github.com/archonology/drum-kit" target={'_blank'} rel={'nonreferrer'}>
+                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
                                     </CardActions>
                                 </div>
                             </Grid>
