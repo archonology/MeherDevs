@@ -7,6 +7,11 @@ import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
+import PublicIcon from '@mui/icons-material/Public';
+import GrassIcon from '@mui/icons-material/Grass';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import Tooltip from '@mui/material/Tooltip';
+import IconButton from '@mui/material/IconButton';
 
 
 import CWP from '../projectImages/ChildWelfarePortal.jpg';
@@ -92,81 +97,153 @@ const Portfolio = () => {
                 <TabPanel value={value} index={0}>
 
 
-                    <Grid container spacing={{ xs: 2, md: 2 }} columns={{ xs: 12, sm: 12, md: 10 }} justifyContent="center">
+                    <Grid container spacing={{ xs: 2, md: 2, lg: 3 }} columns={{ xs: 12, sm: 12, md: 10, lg: 10 }} justifyContent="center">
 
-                        <Grid item xs={10} sm={5} md={4}>
+                        <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
                                 <img src={CWP} alt="child welfare portal" className="portfolio-img m-3"></img>
                                 <hr></hr>
                                 <h5>Child Welfare Portal</h5>
                                 <p>Built with a client to be a resource hub for child welfare workers in Minnesota. All content needed to be easily added, changed and deleted by the admin. Created with the <span>MERN stack</span> and utilizes <span>GraphQL</span> API practices.</p>
-                                <CardActions>
-                                    <Button href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                    <Button href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
+
+                                <CardActions sx={{ justifyContent: "center" }}>
+
+                                    <Tooltip title="Visit Site">
+                                        <IconButton className="" href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}>
+                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
+                                    <Tooltip title="visit Github page">
+                                        <IconButton className="" href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'}>
+                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
                                 </CardActions>
                             </div>
                         </Grid>
-                        <Grid item xs={10} sm={5} md={4}>
+                        <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
                                 <img src={Prima} alt="prima materia" className="portfolio-img m-3"></img>
                                 <hr></hr>
                                 <h5>Prima Materia</h5>
                                 <p className="mb-4">A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with the <span>MERN stack</span> and utilizes <span>GraphQL</span> practices.</p>
-                                <CardActions>
-                                    <Button href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                    <Button href="https://github.com/archonology/Prima-Materia" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Repo</Button>
+
+                                <CardActions sx={{ justifyContent: "center" }}>
+
+                                    <Tooltip title="Visit Site">
+                                        <IconButton className="" href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}>
+                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
+                                    <Tooltip title="visit Github page">
+                                        <IconButton className="" href="https://github.com/archonology/Prima-Materia" target={'_blank'} rel={'nonreferrer'}>
+                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
                                 </CardActions>
                             </div>
                         </Grid>
 
-                        <Grid item xs={10} sm={5} md={4}>
+                        <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
                                 <img src={Hparty} alt="home party" className="portfolio-img m-3"></img>
                                 <hr></hr>
                                 <h5>Home Party</h5>
-                                <p className="tall">Built collaboratively, Home Party is a place to invite your family and friends for tracking real estate. Utilizes <span>MySQL, Sequelize, Node, Javascript, Bootstrap, Nodemailer, custom CSS, and HTML.</span></p>
-                                <CardActions>
-                                    <Button href="https://home-party-app.herokuapp.com" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                    <Button href="https://github.com/archonology/Home-Party" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
+                                <p>Built collaboratively, Home Party is a place to invite your family and friends for tracking real estate. Utilizes <span>MySQL, Sequelize, Node, Javascript, Bootstrap, Nodemailer, custom CSS, and HTML.</span></p>
+
+                                <CardActions sx={{ justifyContent: "center" }}>
+
+                                    <Tooltip title="Visit Site">
+                                        <IconButton className="" href="https://home-party-app.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
+                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
+                                    <Tooltip title="visit Github page">
+                                        <IconButton className="" href="https://github.com/archonology/Home-Party" target={'_blank'} rel={'nonreferrer'}>
+                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
                                 </CardActions>
                             </div>
                         </Grid>
 
-                        <Grid item xs={10} sm={5} md={4}>
+                        <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
                                 <img src={Wandering} alt="wandering comma" className="portfolio-img m-3"></img>
                                 <hr></hr>
                                 <h5>The Wandering Comma</h5>
-                                <p className="tall">A full stack tech blog created with RESTful practices. Users can logon, leave comments and make posts. Utilizes <span>MySQL, Sequelize, Express, Node, Javascript, Bootstrap, custom CSS, and HTML.</span></p>
-                                <CardActions>
-                                    <Button href="https://the-wandering-comma.herokuapp.com" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                    <Button href="https://github.com/archonology/The-Wandering-Comma-Tech-Blog" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
+                                <p>A full stack tech blog created with RESTful practices. Users can logon, leave comments and make posts. Utilizes <span>MySQL, Sequelize, Express, Node, Javascript, Bootstrap, custom CSS, and HTML.</span></p>
+
+                                <CardActions sx={{ justifyContent: "center" }}>
+
+                                    <Tooltip title="Visit Site">
+                                        <IconButton className="" href="https://the-wandering-comma.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
+                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
+                                    <Tooltip title="visit Github page">
+                                        <IconButton className="" href="https://github.com/archonology/The-Wandering-Comma-Tech-Blog" target={'_blank'} rel={'nonreferrer'}>
+                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
                                 </CardActions>
                             </div>
                         </Grid>
 
-                        <Grid item xs={10} sm={5} md={4}>
+                        <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
                                 <img src={BookSearch} alt="booksearch" className="portfolio-img m-3"></img>
                                 <hr></hr>
                                 <h5>Book Search</h5>
-                                <p className="tall">A study in refactoring RESTful API to GraphQL API practices, this book search tool tackles the joy of using the <span>MERN stack</span> for searching fetch APIs. Allows users to login and manage a booklist.</p>
-                                <CardActions>
-                                    <Button href="https://book-search-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                    <Button href="https://github.com/archonology/Book-Search-with-MERN" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
+                                <p>A study in refactoring RESTful API to GraphQL API practices, this book search tool tackles the joy of using the <span>MERN stack</span> for searching fetch APIs. Allows users to login and manage a booklist.</p>
+
+                                <CardActions sx={{ justifyContent: "center" }}>
+
+                                    <Tooltip title="Visit Site">
+                                        <IconButton className="" href="https://book-search-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
+                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
+                                    <Tooltip title="visit Github page">
+                                        <IconButton className="" href="https://github.com/archonology/Book-Search-with-MERN" target={'_blank'} rel={'nonreferrer'}>
+                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
                                 </CardActions>
                             </div>
                         </Grid>
 
-                        <Grid item xs={10} sm={5} md={4}>
+                        <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
                                 <img src={PWA} alt="pwq text-editor" className="portfolio-img m-3"></img>
                                 <hr></hr>
                                 <h5>PWA Text Editor</h5>
                                 <p>A full stack PWA text editor. You can save it to your local device (via Chrome) <span> Uses Webpack, Workbox, Express, Idb,</span> and more.</p>
-                                <CardActions>
-                                    <Button href="https://simple-pwa-text-editor-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
-                                    <Button href="https://github.com/archonology/PWA-Text-Editor" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
+                                
+                                <CardActions sx={{ justifyContent: "center" }}>
+
+                                    <Tooltip title="Visit Site">
+                                        <IconButton className="" href="https://simple-pwa-text-editor-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
+                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
+                                    <Tooltip title="visit Github page">
+                                        <IconButton className="" href="https://github.com/archonology/PWA-Text-Editor" target={'_blank'} rel={'nonreferrer'}>
+                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                        </IconButton>
+                                    </Tooltip>
+
                                 </CardActions>
                             </div>
                         </Grid>
@@ -179,10 +256,10 @@ const Portfolio = () => {
                 <TabPanel value={value} index={1}>
 
                     <Grid >
-                        <Grid container spacing={{ xs: 2, md: 2 }} columns={{ xs: 12, sm: 12, md: 10 }} justifyContent="center">
+                        <Grid container spacing={{ xs: 2, md: 2, lg: 3 }} columns={{ xs: 12, sm: 12, md: 10, lg: 10 }} justifyContent="center">
 
 
-                            <Grid item xs={10} sm={5} md={4}>
+                            <Grid item xs={10} sm={5} md={4} lg={3}>
                                 <div className="card">
                                     <img src={NightIn} alt="a night in" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -195,12 +272,12 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5} md={4}>
+                            <Grid item xs={10} sm={5} md={4} lg={3}>
                                 <div className="card">
                                     <img src={weather} alt="weather dashboard" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>Weather Dashboard</h5>
-                                    <p className="mb-2">A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.</p><br></br>
+                                    <p>A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.</p>
                                     <CardActions>
                                         <Button href="https://archonology.github.io/Weather-Dashboard/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/Weather-Dashboard" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
@@ -208,12 +285,12 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5} md={4}>
+                            <Grid item xs={10} sm={5} md={4} lg={3}>
                                 <div className="card">
                                     <img src={clock} alt="clock app" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>JS Clock App</h5>
-                                    <p className="taller">An operational clock built with vanilla JS and CSS only. Keep track of your coding hours.</p><br></br>
+                                    <p>An operational clock built with vanilla JS and CSS only. Keep track of your coding hours.</p>
                                     <CardActions>
                                         <Button href="https://archonology.github.io/Clock-App/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/Clock-App" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
@@ -221,12 +298,12 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5} md={4}>
+                            <Grid item xs={10} sm={5} md={4} lg={3}>
                                 <div className="card">
                                     <img src={scheduler} alt="work day scheduler" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>Work Day Scheduler</h5>
-                                    <p className="talltall">A scheduling application that tracks the current day and time and allows a user to create and save persistent time events.<span>Utilizes Javascript, localStorage, and CSS</span></p>
+                                    <p>A scheduling application that tracks the current day and time and allows a user to create and save persistent time events.<span>Utilizes Javascript, localStorage, and CSS</span></p>
                                     <CardActions>
                                         <Button href="https://archonology.github.io/Work-Day-Scheduler/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/Work-Day-Scheduler" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
@@ -234,12 +311,12 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5} md={4}>
+                            <Grid item xs={10} sm={5} md={4} lg={3}>
                                 <div className="card">
                                     <img src={drumkit} alt="drumkit app" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>JS Drum Kit</h5>
-                                    <p className="taller">A typing drumkit built with vanilla JS and CSS only. Users can rock out on their keyboard.</p><br></br>
+                                    <p>A typing drumkit built with vanilla JS and CSS only. Users can rock out on their keyboard.</p>
                                     <CardActions>
                                         <Button href="https://archonology.github.io/drum-kit/" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/drum-kit" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
@@ -253,10 +330,10 @@ const Portfolio = () => {
                 </TabPanel>
                 <TabPanel value={value} index={2}>
 
-                    <Grid direction="row" container sx={{ padding: "2rem", marginBottom: "1em" }}>
+                    <Grid direction="row" container sx={{ padding: "3rem", marginBottom: "1em" }}>
                         <Grid container spacing={2} justifyContent="center">
                             {/* video card 1 */}
-                            <Grid item className="video-card m-2">
+                            <Grid item className="video-card m-2" lg={8}>
                                 <div className="card-body">
                                     <div className="ratio ratio-16x9 mb-2">
                                         <iframe
@@ -276,7 +353,7 @@ const Portfolio = () => {
                             </Grid>
 
                             {/* video card 2 */}
-                            <Grid item className="video-card m-2">
+                            <Grid item className="video-card m-2" lg={8}>
                                 <div className="card-body">
 
                                     <div className="ratio ratio-16x9 mb-2">
@@ -299,7 +376,7 @@ const Portfolio = () => {
 
 
                             {/* video card 4 */}
-                            <Grid item className="video-card m-2">
+                            <Grid item className="video-card m-2" lg={4}>
                                 <div className="card-body">
                                     <h5 className="card-title">Team Generator</h5>
                                     <p className="card-text">I wanted to be able to generate an html page for team projects. Having a page to keep track of my group helps keep things organized and makes it easy to find contact info for my team and important links, like their github accounts or school info.</p>
@@ -311,7 +388,7 @@ const Portfolio = () => {
                             </Grid>
 
                             {/* video card 3 */}
-                            <Grid item className="video-card m-2">
+                            <Grid item className="video-card m-2" lg={4}>
                                 <div className="card-body">
                                     <h5 className="card-title">Employee Library</h5>
                                     <p className="card-text">Backend employee database management program. Solves the need for managing an employee database easily through the backend.</p>
