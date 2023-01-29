@@ -38,13 +38,11 @@ function Header() {
                                 
                                 <Nav.Link href="https://buy.stripe.com/cN26ox1O4eMkf7ifYY" target={'_blank'} rel={'nonreferrer'}>Donate</Nav.Link>
                                 <Tooltip title="visit LinkedIn page">
-                                    <a href="https://www.linkedin.com/in/reed-meher" target={'_blank'} rel={'nonreferrer'}><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="https://www.linkedin.com/in/reed-meher" target={'_blank'} rel={'nonreferrer'}><i className="fa-brands fa-linkedin-in"></i></a>
                                 </Tooltip>
                                 <Tooltip title="visit Github page">
-                                    <a className="github-icon" href="https://github.com/archonology" target={'_blank'} rel={'nonreferrer'}><i class="fa-brands fa-github-alt"></i></a>
+                                    <a className="github-icon" href="https://github.com/archonology" target={'_blank'} rel={'nonreferrer'}><i className="fa-brands fa-github-alt"></i></a>
                                 </Tooltip>
-
-
 
                             </Nav>
 
