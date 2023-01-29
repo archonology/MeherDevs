@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
+import PortfolioContainer from "./pages/MeherDevsContainer";
+
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -31,6 +33,7 @@ function App() {
           <div className="footspace">
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route index element={<Home />} />
               <Route path="portfolio" element={<Portfolio />} />
               <Route path="contact" element={<Contact />} />
               <Route path="resume" element={<Resume />} />

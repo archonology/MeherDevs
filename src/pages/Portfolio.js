@@ -94,7 +94,7 @@ const Portfolio = () => {
                 
                         <Grid container spacing={{ xs: 2, md: 2 }} columns={{ xs: 12, sm: 12, md: 10 }} justifyContent="center">
 
-                            <Grid item xs={10} sm={5} md={3}>
+                            <Grid item xs={10} sm={5} md={4}>
                                 <div className="card">
                                     <img src={CWP} alt="child welfare portal" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -106,7 +106,7 @@ const Portfolio = () => {
                                     </CardActions>
                                 </div>
                             </Grid>
-                            <Grid item xs={10} sm={5} md={3}>
+                            <Grid item xs={10} sm={5} md={4}>
                                 <div className="card">
                                     <img src={Prima} alt="prima materia" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -119,7 +119,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5}  md={3}>
+                            <Grid item xs={10} sm={5}  md={4}>
                                 <div className="card">
                                     <img src={Hparty} alt="home party" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -132,12 +132,12 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5}  md={3}>
+                            <Grid item xs={10} sm={5}  md={4}>
                                 <div className="card">
                                     <img src={Wandering} alt="wandering comma" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>The Wandering Comma</h5>
-                                    <p>A full stack tech blog created with RESTful practices. Users can logon, leave comments and make posts. Utilizes <span>MySQL, Sequelize, Express, Node, Javascript, Bootstrap, custom CSS, and HTML.</span></p>
+                                    <p className="tall">A full stack tech blog created with RESTful practices. Users can logon, leave comments and make posts. Utilizes <span>MySQL, Sequelize, Express, Node, Javascript, Bootstrap, custom CSS, and HTML.</span></p>
                                     <CardActions>
                                         <Button href="https://the-wandering-comma.herokuapp.com" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/The-Wandering-Comma-Tech-Blog" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
@@ -145,7 +145,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5}  md={3}>
+                            <Grid item xs={10} sm={5}  md={4}>
                                 <div className="card">
                                     <img src={BookSearch} alt="booksearch" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -158,12 +158,12 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5}  md={3}>
+                            <Grid item xs={10} sm={5}  md={4}>
                                 <div className="card">
                                     <img src={PWA} alt="pwq text-editor" className="portfolio-img m-3"></img>
                                     <hr></hr>
                                     <h5>PWA Text Editor</h5>
-                                    <p>A full stack PWA text editor that affords an easy place to keep coding notes or practice functions. You can save it to your local device (via Chrome) <span> Uses Webpack, Workbox, Express, Idb,</span> and more.</p>
+                                    <p>A full stack PWA text editor. You can save it to your local device (via Chrome) <span> Uses Webpack, Workbox, Express, Idb,</span> and more.</p>
                                     <CardActions>
                                         <Button href="https://simple-pwa-text-editor-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Site</Button>
                                         <Button href="https://github.com/archonology/PWA-Text-Editor" target={'_blank'} rel={'nonreferrer'} color="primary">See the Repo in Github</Button>
@@ -182,7 +182,7 @@ const Portfolio = () => {
                         <Grid container spacing={{ xs: 2, md: 2 }} columns={{ xs: 12, sm: 12, md: 10 }} justifyContent="center">
 
 
-                            <Grid item xs={10} sm={5}  md={3}>
+                            <Grid item xs={10} sm={5}  md={4}>
                                 <div className="card">
                                     <img src={NightIn} alt="a night in" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -195,7 +195,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5}  md={3}>
+                            <Grid item xs={10} sm={5}  md={4}>
                                 <div className="card">
                                     <img src={weather} alt="weather dashboard" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -208,7 +208,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5}  md={3}>
+                            <Grid item xs={10} sm={5}  md={4}>
                                 <div className="card">
                                     <img src={clock} alt="clock app" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -221,7 +221,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5}  md={3}>
+                            <Grid item xs={10} sm={5}  md={4}>
                                 <div className="card">
                                     <img src={scheduler} alt="work day scheduler" className="portfolio-img m-3"></img>
                                     <hr></hr>
@@ -234,7 +234,7 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
                             
-                            <Grid item xs={10} sm={5}  md={3}>
+                            <Grid item xs={10} sm={5}  md={4}>
                                 <div className="card">
                                     <img src={drumkit} alt="drumkit app" className="portfolio-img m-3"></img>
                                     <hr></hr>
