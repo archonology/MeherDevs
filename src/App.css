@@ -1,11 +1,12 @@
 :root {
   --dawn100: rgb(254, 252, 248);
   --lavendar100: rgb(254, 221, 254);
-  --lavendar200: rgb(253, 184, 253);
+  --lavendar200: rgb(252, 188, 252);
   --lavendar300: rgb(254, 142, 254);
-  --sky100: rgb(189, 214, 252);
+  --gold100: rgb(253, 242, 159);
+  --sky100: rgb(224, 237, 254);
   --sky200: rgb(158, 194, 251);
-  --sky300: rgb(137, 180, 251);
+  --sky300: rgb(147, 178, 252);
   --emerald100: rgb(161, 255, 151);
   --emerald200: rgb(121, 251, 106);
   --slate100: rgb(44, 45, 46);
@@ -70,7 +71,7 @@ a {
 }
 
 span {
-  color: var(--sky300);
+  color: var(--lavendar200);
 }
 
 .portrait {
@@ -85,7 +86,7 @@ i {
 
 .card {
 padding: 1em;
-min-height: 625px;
+min-height: 645px;
 background-color: var(--slate200);
 box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
 border: none;
@@ -150,10 +151,6 @@ a:hover {
   border: none;
   color: var(--lavendar100);
 }
-
-/* img:hover {
-  box-shadow: 8px 8px 20px rgba(16, 16, 16, 0.738);
-} */
 
 .card:hover {
   box-shadow: 8px 8px 20px rgba(16, 16, 16, 0.738);

@@ -7,8 +7,8 @@ import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
-import PublicIcon from '@mui/icons-material/Public';
-import GrassIcon from '@mui/icons-material/Grass';
+import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
+import SailingIcon from '@mui/icons-material/Sailing';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Tooltip from '@mui/material/Tooltip';
 import IconButton from '@mui/material/IconButton';
@@ -109,8 +109,8 @@ const Portfolio = () => {
                                 <CardActions sx={{ justifyContent: "center" }}>
 
                                     <Tooltip title="Visit Site">
-                                        <IconButton className="" href="https://childwelfareportal.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}>
-                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                        <IconButton className="" href="https://childwelfareportal.org/" target={'_blank'} rel={'nonreferrer'}>
+                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
                                         </IconButton>
                                     </Tooltip>
 
@@ -134,7 +134,7 @@ const Portfolio = () => {
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}>
-                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
                                         </IconButton>
                                     </Tooltip>
 
@@ -159,7 +159,7 @@ const Portfolio = () => {
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://home-party-app.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
                                         </IconButton>
                                     </Tooltip>
 
@@ -184,7 +184,7 @@ const Portfolio = () => {
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://the-wandering-comma.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
                                         </IconButton>
                                     </Tooltip>
 
@@ -209,7 +209,7 @@ const Portfolio = () => {
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://book-search-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
                                         </IconButton>
                                     </Tooltip>
 
@@ -234,7 +234,7 @@ const Portfolio = () => {
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://simple-pwa-text-editor-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
                                         </IconButton>
                                     </Tooltip>
 
@@ -270,7 +270,7 @@ const Portfolio = () => {
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/A-Night-In/" target={'_blank'} rel={'nonreferrer'}>
-                                                <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                                <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
                                             </IconButton>
                                         </Tooltip>
 
@@ -295,7 +295,7 @@ const Portfolio = () => {
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/Weather-Dashboard/" target={'_blank'} rel={'nonreferrer'}>
-                                                <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                                <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
                                             </IconButton>
                                         </Tooltip>
 
@@ -321,7 +321,7 @@ const Portfolio = () => {
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/Work-Day-Scheduler/" target={'_blank'} rel={'nonreferrer'}>
-                                                <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                                <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
                                             </IconButton>
                                         </Tooltip>
 
@@ -346,7 +346,7 @@ const Portfolio = () => {
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/drum-kit/" target={'_blank'} rel={'nonreferrer'}>
-                                                <GrassIcon fontSize="large" sx={{ color: "green" }} />
+                                                <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
                                             </IconButton>
                                         </Tooltip>
 
@@ -381,9 +381,20 @@ const Portfolio = () => {
                                     <hr></hr>
                                     <h5 className="card-title">Bubble World</h5>
                                     <p className="card-text">An experiment in understanding and developing a social media app. Bubble World is a backend application that utilizes MongoDB, Mongoose, and Express to explore the possiblities of social media.</p>
-                                    <CardActions>
-                                        <Button href="https://github.com/archonology/Bubble-World" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Repo</Button>
-                                        <Button href="https://youtu.be/5A9lBIHdNGY" target={'_blank'} rel={'nonreferrer'} color="primary">Watch the Demo</Button>
+                                    <CardActions sx={{ justifyContent: "left" }}>
+
+                                        <Tooltip title="Watch on YouTube">
+                                            <IconButton className="" href="https://youtu.be/5A9lBIHdNGY" target={'_blank'} rel={'nonreferrer'}>
+                                                <VideoLibraryIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
+                                        <Tooltip title="visit Github page">
+                                            <IconButton className="" href="https://github.com/archonology/Bubble-World" target={'_blank'} rel={'nonreferrer'}>
+                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -403,9 +414,20 @@ const Portfolio = () => {
                                     <hr></hr>
                                     <h5 className="card-title">eCommerce</h5>
                                     <p className="card-text">Back end application to develop my skill in back end technologies and learn about managing ORM techniques.</p>
-                                    <CardActions>
-                                        <Button href="https://github.com/archonology/E-Commerce-Back-End" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Repo</Button>
-                                        <Button href="https://youtu.be/L7r7JGepZZ4" target={'_blank'} rel={'nonreferrer'} color="primary">Watch the Demo</Button>
+                                    <CardActions sx={{ justifyContent: "left" }}>
+
+                                        <Tooltip title="Watch on YouTube">
+                                            <IconButton className="" href="https://youtu.be/L7r7JGepZZ4" target={'_blank'} rel={'nonreferrer'}>
+                                                <VideoLibraryIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
+                                        <Tooltip title="visit Github page">
+                                            <IconButton className="" href="https://github.com/archonology/E-Commerce-Back-End" target={'_blank'} rel={'nonreferrer'}>
+                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -416,9 +438,20 @@ const Portfolio = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Team Generator</h5>
                                     <p className="card-text">I wanted to be able to generate an html page for team projects. Having a page to keep track of my group helps keep things organized and makes it easy to find contact info for my team and important links, like their github accounts or school info.</p>
-                                    <CardActions>
-                                        <Button href="https://github.com/archonology/Team-Profile-Generator" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Repo</Button>
-                                        <Button href="https://youtu.be/ZaHrOHW6bLg" target={'_blank'} rel={'nonreferrer'} color="primary">Watch the Demo</Button>
+                                    <CardActions sx={{ justifyContent: "left" }}>
+
+                                        <Tooltip title="Watch on YouTube">
+                                            <IconButton className="" href="https://youtu.be/ZaHrOHW6bLg" target={'_blank'} rel={'nonreferrer'}>
+                                                <VideoLibraryIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
+                                        <Tooltip title="visit Github page">
+                                            <IconButton className="" href="https://github.com/archonology/Team-Profile-Generator" target={'_blank'} rel={'nonreferrer'}>
+                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
                                     </CardActions>
                                 </div>
                             </Grid>
@@ -428,9 +461,20 @@ const Portfolio = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Employee Library</h5>
                                     <p className="card-text">Backend employee database management program. Solves the need for managing an employee database easily through the backend.</p>
-                                    <CardActions>
-                                        <Button href="https://github.com/archonology/Employee-Library" target={'_blank'} rel={'nonreferrer'} color="primary">Visit the Repo</Button>
-                                        <Button href="https://youtu.be/r-aP_ufH47U" target={'_blank'} rel={'nonreferrer'} color="primary">Watch the Demo</Button>
+                                    <CardActions sx={{ justifyContent: "left" }}>
+
+                                        <Tooltip title="Watch on YouTube">
+                                            <IconButton className="" href="https://youtu.be/r-aP_ufH47U" target={'_blank'} rel={'nonreferrer'}>
+                                                <VideoLibraryIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
+                                        <Tooltip title="visit Github page">
+                                            <IconButton className="" href="https://github.com/archonology/Employee-Library" target={'_blank'} rel={'nonreferrer'}>
+                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            </IconButton>
+                                        </Tooltip>
+
                                     </CardActions>
                                 </div>
                             </Grid>
