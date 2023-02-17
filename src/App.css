@@ -61,6 +61,7 @@ img:hover {
 a {
  color: var(--lavendar100);
  text-decoration: none;
+ padding: 5px;
 }
 
 .github-icon {
@@ -81,7 +82,7 @@ span {
 }
 
 .portrait {
-border: rgb(61, 61, 104) solid 7px;
+border: rgb(61, 61, 104) solid 4px;
 }
 
 

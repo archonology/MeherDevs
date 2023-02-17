@@ -61,6 +61,18 @@ const Resume = () => {
                     </span>
                 </h2>
                 <hr></hr>
+                <h2 className="heading">
+                    <span>
+                        <Tooltip title="visit LinkedIn page">
+                            <a href="https://www.linkedin.com/in/reed-meher" target={'_blank'} rel={'nonreferrer'}><i className="fa-brands fa-linkedin-in"></i></a>
+                        </Tooltip>
+                        <Tooltip title="visit Github page">
+                            <a className="github-icon" href="https://github.com/archonology" target={'_blank'} rel={'nonreferrer'}><i className="fa-brands fa-github-alt"></i></a>
+
+                        </Tooltip>
+                    </span>
+                </h2>
+
             </Container>
 
             <Box sx={{ width: '100%', marginTop: 0 }}>
