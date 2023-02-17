@@ -30,7 +30,7 @@ html body {
 }
 
 .heading {
-  font-size: 48px;
+  font-size: 38px;
 }
 
 h5 {
@@ -50,6 +50,12 @@ img {
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
   margin-bottom: 1em;
   border-radius: 10px;
+  transition: 1s;
+  max-height: 275px;
+}
+
+img:hover {
+  transform: scale(105%);
 }
 
 a {
@@ -75,9 +81,9 @@ span {
 }
 
 .portrait {
-  min-width: 100px;
-  max-width: 275px;
+border: rgb(61, 61, 104) solid 7px;
 }
+
 
 i {
   padding-top: 10px;
@@ -85,8 +91,7 @@ i {
 }
 
 .card {
-padding: 1em;
-min-height: 645px;
+min-height: 590px;
 background-color: var(--slate200);
 box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
 border: none;
@@ -94,16 +99,9 @@ text-align: center;
 border-radius: 10px;
 }
 
-.tall{
-  margin-bottom: 2.5em;
-}
-
-.talltall{
-  margin-bottom: 4.5em;
-}
-
-.taller{
-  margin-bottom: 5.5em;
+.card p {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .video-card {

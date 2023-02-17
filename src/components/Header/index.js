@@ -15,8 +15,22 @@ function Header() {
             <Navbar bg="transparent" variant="dark" className="mb-3 p-4" expand="md" id="#top">
                 <Container fluid >
                     <Navbar.Brand as={Link} to="/" className="">MeherDevs</Navbar.Brand>
-                    <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md}`} />
-                    <Navbar.Offcanvas
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" className='p-3' />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="justify-content-end flex-grow-1 pe-3">
+                            <Nav.Link as={Link} to="/about">About</Nav.Link>
+                            <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
+                            <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
+                            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+
+                            <Nav.Link href="https://buy.stripe.com/cN26ox1O4eMkf7ifYY" target={'_blank'} rel={'nonreferrer'}>Donate</Nav.Link>
+                            {/* <Tooltip title="visit LinkedIn page">
+                                <a href="https://www.linkedin.com/in/reed-meher" target={'_blank'} rel={'nonreferrer'}><i className="fa-brands fa-linkedin-in"></i></a>
+                            </Tooltip>
+                            <Tooltip title="visit Github page">
+                                <a className="github-icon" href="https://github.com/archonology" target={'_blank'} rel={'nonreferrer'}><i className="fa-brands fa-github-alt"></i></a>
+                            </Tooltip> */}
+                    {/* <Navbar.Offcanvas
                         id={`offcanvasNavbar-expand-md}`}
                         aria-labelledby={`offcanvasNavbarLabel-expand-md}`}
                         placement="end"
@@ -47,7 +61,9 @@ function Header() {
                             </Nav>
 
                         </Offcanvas.Body>
-                    </Navbar.Offcanvas>
+                    </Navbar.Offcanvas> */}
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>

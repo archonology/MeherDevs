@@ -6,7 +6,6 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import CardActions from '@mui/material/CardActions';
-import Button from '@mui/material/Button';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 import SailingIcon from '@mui/icons-material/Sailing';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -23,7 +22,6 @@ import PWA from '../projectImages/pwa-text-editor.jpg';
 
 import NightIn from '../projectImages/a-night-in-page.jpg';
 import drumkit from '../projectImages/drumkit.png';
-import clock from '../projectImages/jsclock.png';
 import weather from '../projectImages/weather-dashboard.jpg';
 import scheduler from '../projectImages/scheduler.jpg'
 
@@ -101,7 +99,7 @@ const Portfolio = () => {
 
                         <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
-                                <img src={CWP} alt="child welfare portal" className="portfolio-img m-3"></img>
+                                <img src={CWP} alt="child welfare portal" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>Child Welfare Portal</h5>
                                 <p>Built with a client to be a resource hub for child welfare workers in Minnesota. All content needed to be easily added, changed and deleted by the admin. Created with the <span>MERN stack</span> and utilizes <span>GraphQL</span> API practices.</p>
@@ -125,7 +123,7 @@ const Portfolio = () => {
                         </Grid>
                         <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
-                                <img src={Prima} alt="prima materia" className="portfolio-img m-3"></img>
+                                <img src={Prima} alt="prima materia" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>Prima Materia</h5>
                                 <p className="mb-4">A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with the <span>MERN stack</span> and utilizes <span>GraphQL</span> practices.</p>
@@ -150,7 +148,7 @@ const Portfolio = () => {
 
                         <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
-                                <img src={Hparty} alt="home party" className="portfolio-img m-3"></img>
+                                <img src={Hparty} alt="home party" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>Home Party</h5>
                                 <p>Built collaboratively, Home Party is a place to invite your family and friends for tracking real estate. Utilizes <span>MySQL, Sequelize, Node, Bootstrap, and Nodemailer.</span></p>
@@ -175,7 +173,7 @@ const Portfolio = () => {
 
                         <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
-                                <img src={Wandering} alt="wandering comma" className="portfolio-img m-3"></img>
+                                <img src={Wandering} alt="wandering comma" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>The Wandering Comma</h5>
                                 <p>A full stack tech blog created with RESTful practices. Users can leave comments and make posts. Utilizes <span>MySQL, Sequelize, Express, Node, and Bootstrap.</span></p>
@@ -200,7 +198,7 @@ const Portfolio = () => {
 
                         <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
-                                <img src={BookSearch} alt="booksearch" className="portfolio-img m-3"></img>
+                                <img src={BookSearch} alt="booksearch" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>Book Search</h5>
                                 <p>A study in refactoring RESTful API to GraphQL API practices, this book search tool tackles the joy of using the <span>MERN stack</span> for searching fetch APIs. Allows users to login and manage a booklist.</p>
@@ -225,7 +223,7 @@ const Portfolio = () => {
 
                         <Grid item xs={10} sm={5} md={4} lg={3}>
                             <div className="card">
-                                <img src={PWA} alt="pwq text-editor" className="portfolio-img m-3"></img>
+                                <img src={PWA} alt="pwa text-editor" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>PWA Text Editor</h5>
                                 <p>A full stack PWA text editor. You can save it to your local device (via Chrome) <span> Uses Webpack, Workbox, Express, Idb,</span> and more.</p>
@@ -261,7 +259,7 @@ const Portfolio = () => {
 
                             <Grid item xs={10} sm={5} md={4} lg={3}>
                                 <div className="card">
-                                    <img src={NightIn} alt="a night in" className="portfolio-img m-3"></img>
+                                    <img src={NightIn} alt="a night in" className="portfolio-img m-3 mb-0"></img>
                                     <hr></hr>
                                     <h5>A Night In</h5>
                                     <p>Built collaboratively on Github. This app will help a user find culinary and media inspiration through randomized searches to find ideas. <span>Tailwind, JQUERY, and webAPI.</span></p>
@@ -286,7 +284,7 @@ const Portfolio = () => {
 
                             <Grid item xs={10} sm={5} md={4} lg={3}>
                                 <div className="card">
-                                    <img src={weather} alt="weather dashboard" className="portfolio-img m-3"></img>
+                                    <img src={weather} alt="weather dashboard" className="portfolio-img m-3 mb-0"></img>
                                     <hr></hr>
                                     <h5>Weather Dashboard</h5>
                                     <p>A weather tracking website that uses <span>webAPI</span> tools. Weather searches can easily check & track weather updates while they're traveling.</p>
@@ -312,7 +310,7 @@ const Portfolio = () => {
 
                             <Grid item xs={10} sm={5} md={4} lg={3}>
                                 <div className="card">
-                                    <img src={scheduler} alt="work day scheduler" className="portfolio-img m-3"></img>
+                                    <img src={scheduler} alt="work day scheduler" className="portfolio-img m-3 mb-0"></img>
                                     <hr></hr>
                                     <h5>Work Day Scheduler</h5>
                                     <p>A scheduling application that tracks the current day and time and allows a user to create and save persistent time events via <span>webAPI</span> tools.</p>
@@ -337,7 +335,7 @@ const Portfolio = () => {
 
                             <Grid item xs={10} sm={5} md={4} lg={3}>
                                 <div className="card">
-                                    <img src={drumkit} alt="drumkit app" className="portfolio-img m-3"></img>
+                                    <img src={drumkit} alt="drumkit app" className="portfolio-img m-3 mb-0"></img>
                                     <hr></hr>
                                     <h5>JS Drum Kit</h5>
                                     <p>A typing drumkit built with <span>vanilla JS</span> and <span>CSS</span> only. Users can rock out on their keyboard.</p>

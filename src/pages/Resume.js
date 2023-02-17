@@ -6,9 +6,7 @@ import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
-import CardActions from '@mui/material/CardActions';
-import Button from '@mui/material/Button';
-import resume from '../components/resume/reedMeherResume.pdf'
+import resume from '../components/resume/ReedMeher2023EXResume.pdf'
 
 
 function TabPanel(props) {
