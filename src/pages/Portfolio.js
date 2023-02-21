@@ -364,7 +364,7 @@ const Portfolio = () => {
                 </TabPanel>
                 <TabPanel value={value} index={2}>
 
-                    <Grid direction="row" container sx={{ padding: "3rem", marginBottom: "1em" }}>
+                    <Grid direction="row" container sx={{ padding: "2px" }}>
                         <Grid container spacing={2} justifyContent="center">
                             {/* video card 1 */}
                             <Grid item className="video-card m-2" lg={8}>
