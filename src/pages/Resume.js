@@ -51,24 +51,24 @@ const Resume = () => {
         <>
             <Container className="text-center p-5 mt-1 box">
                 <h2 className="heading">Resume
-                    <span>
-                        <Tooltip title="Download Resume">
-                            <a href={resume} className="resume" download>
-                                <i class="fa-solid fa-download">
-                                </i>
-                            </a>
-                        </Tooltip>
-                    </span>
                 </h2>
                 <hr></hr>
                 <h2 className="heading">
                     <span>
+
+
                         <Tooltip title="visit LinkedIn page">
                             <a href="https://www.linkedin.com/in/reed-meher" target={'_blank'} rel={'nonreferrer'}><i className="fa-brands fa-linkedin-in"></i></a>
                         </Tooltip>
                         <Tooltip title="visit Github page">
                             <a className="github-icon" href="https://github.com/archonology" target={'_blank'} rel={'nonreferrer'}><i className="fa-brands fa-github-alt"></i></a>
 
+                        </Tooltip>
+                        <Tooltip title="Download Resume">
+                            <a href={resume} className="resume" download>
+                                <i class="fa-solid fa-download">
+                                </i>
+                            </a>
                         </Tooltip>
                     </span>
                 </h2>
@@ -88,7 +88,7 @@ const Resume = () => {
                         scrollButtons
                         allowScrollButtonsMobile
                         aria-label="scrollable Dashboard List Tabs"
-                        indicatorColor="secondary">
+                        indicatorColor="primary">
                         <Tab label="Languages" {...a11yProps(0)} />
                         <Tab label="Skills" {...a11yProps(1)} />
                         <Tab label="Education" {...a11yProps(2)} />
@@ -213,7 +213,7 @@ const Resume = () => {
                         <Grid container spacing={2} textAlign="left" justifyContent="left" className="exp" >
 
                             <div className='row m-1 mt-0 p-4'>
-                                <h3><a href="https://www.credly.com/badges/38a79ed6-ec04-410f-9ba1-f54002812bf5/public_url" target={'_blank'} rel={'nonreferrer'}><strong>Full Stack Web Development Certificate</strong></a>
+                                <h3><a href="https://www.credly.com/badges/38a79ed6-ec04-410f-9ba1-f54002812bf5/public_url" className="github-icon"><strong>Full Stack Web Development Certificate</strong></a>
                                     <br></br>
                                     University of MN • June 2022 - December 2022 </h3>
                                 <p>
@@ -221,7 +221,7 @@ const Resume = () => {
                                 </p>
                                 <p> <strong>GPA: 4.0+</strong></p>
                                 <hr></hr>
-                                <h3><a href="https://morris.umn.edu/" target={'_blank'} rel={'nonreferrer'}><strong>Bachelor's of Fine Arts</strong></a>
+                                <h3><a href="https://morris.umn.edu/" className="github-icon"><strong>Bachelor's of Fine Arts</strong></a>
                                     <br></br>
                                     University of MN, Morris • August 2004 - June 2008</h3>
                                 <br></br>

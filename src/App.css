@@ -1,11 +1,28 @@
-:root {
+/* :root {
   --dawn100: rgb(254, 252, 248);
   --lavendar100: rgb(254, 221, 254);
   --lavendar200: rgb(252, 188, 252);
   --lavendar300: rgb(254, 142, 254);
-  --gold100: rgb(253, 242, 159);
+  --red200: rgb(253, 242, 159);
   --sky100: rgb(224, 237, 254);
   --sky200: rgb(158, 194, 251);
+  --sky300: rgb(147, 178, 252);
+  --emerald100: rgb(161, 255, 151);
+  --emerald200: rgb(121, 251, 106);
+  --slate100: rgb(44, 45, 46);
+  --slate200: rgba(20, 17, 23, 0.79);
+  --slate300: rgb(40, 40, 41);
+} */
+:root {
+  --dawn100: rgb(254, 252, 248);
+  --dawn200: rgb(212, 207, 198);
+  --lavendar100: rgb(157, 246, 208);
+  --lavendar200: rgb(123, 216, 175);
+  --lavendar300: rgb(46, 143, 100);
+  --red200: rgb(252, 96, 79);
+  --red300: rgb(250, 202, 9);
+  --sky100: rgb(224, 237, 254);
+  --sky200: rgb(170, 201, 251);
   --sky300: rgb(147, 178, 252);
   --emerald100: rgb(161, 255, 151);
   --emerald200: rgb(121, 251, 106);
@@ -15,15 +32,24 @@
 }
 
 html body {
-  /* background-image: url(../media/IMG_1637.JPG); */
+  background-image: url(../media/DNGF7977.jpeg);
   background-color: var(--slate300);
-  background-position: fixed;
+  /* background-size: cover; */
+  /* background-position: 50% fixed; */
   color: var(--dawn100);
 }
 
 .footspace {
   margin-bottom: 1em;
 }
+
+/* .pattern {
+    background-image: url(../media/Graphik_Pattern.jpg);
+      background-position: cover;
+        background-size: 100%;
+        background-repeat: repeat;
+
+} */
 
 .welcome {
   font-size: 68px;
@@ -38,7 +64,7 @@ h5 {
 }
 
 .mainText {
-  color: var(--sky100);
+  color: var(--dawn100);
   font-size: 18px;
   text-shadow: 1px 2px 24px rgb(21, 21, 21);
   margin-left: 2rem;
@@ -52,6 +78,7 @@ img {
   border-radius: 10px;
   transition: 1s;
   max-height: 275px;
+  min-height: 275px;
 }
 
 img:hover {
@@ -59,18 +86,18 @@ img:hover {
 }
 
 a {
- color: var(--lavendar100);
+ color: var(--dawn100);
  text-decoration: none;
  padding: 5px;
 }
 
-.github-icon {
+/* .github-icon {
   color: var(--sky200);
-}
+} */
 
-.resume {
-  color: var(--emerald100);
-}
+/* .resume {
+  color: var(--red200);
+} */
 
 
 .exp {
@@ -148,20 +175,15 @@ border-radius: 10px;
 a:hover {
   text-decoration: none;
   border: none;
-  color: var(--lavendar100);
+  color: var(--sky300);
 }
 
 .card:hover {
   box-shadow: 8px 8px 20px rgba(16, 16, 16, 0.738);
 }
 
-a:hover {
-  color: var(--lavendar200);
-  text-decoration: none;
- }
-
  .github-icon:hover {
-  color: var(--sky300);
+  color: var(--lavendar200);
  }
 
 
@@ -187,5 +209,5 @@ a:hover {
 }
 
 .resume:hover {
-  color: var(--emerald200);
+  color: var(--red300);
 }

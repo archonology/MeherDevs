@@ -84,7 +84,7 @@ const Portfolio = () => {
                         scrollButtons
                         allowScrollButtonsMobile
                         aria-label="scrollable Dashboard List Tabs"
-                        indicatorColor="secondary">
+                        indicatorColor="primary">
                         <Tab label="Full-Stack" {...a11yProps(0)} />
                         <Tab label="Frontend" {...a11yProps(1)} />
                         <Tab label="Backend" {...a11yProps(2)} />
@@ -95,50 +95,50 @@ const Portfolio = () => {
                 <TabPanel value={value} index={0}>
 
 
-                    <Grid container spacing={{ xs: 2, md: 2, lg: 3 }} columns={{ xs: 12, sm: 12, md: 10, lg: 10 }} justifyContent="center">
+                    <Grid container spacing={{ xs: 2, md: 2, lg: 3 }} columns={{ xs: 12, sm: 12, md: 12, lg: 10 }} justifyContent="center">
 
-                        <Grid item xs={10} sm={5} md={4} lg={3}>
+                        <Grid item xs={11} sm={6} md={5} lg={3}>
                             <div className="card">
                                 <img src={CWP} alt="child welfare portal" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>Child Welfare Portal</h5>
-                                <p>Built with a client to be a resource hub for child welfare workers in Minnesota. All content needed to be easily added, changed and deleted by the admin. Created with the <span>MERN stack</span> and utilizes <span>GraphQL</span> API practices.</p>
+                                <p>Built with a client to be a resource hub for child welfare workers in Minnesota. All content needed to be easily added, changed and deleted by the admin. Created with the MERN stack and utilizes GraphQL API practices.</p>
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://www.childwelfareportal.org/" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                            <SailingIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
                                         <IconButton className="" href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            <GitHubIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
                                 </CardActions>
                             </div>
                         </Grid>
-                        <Grid item xs={10} sm={5} md={4} lg={3}>
+                        <Grid item xs={11} sm={6} md={5} lg={3}>
                             <div className="card">
                                 <img src={Prima} alt="prima materia" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>Prima Materia</h5>
-                                <p className="mb-4">A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with the <span>MERN stack</span> and utilizes <span>GraphQL</span> practices.</p>
+                                <p className="mb-4">A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with the MERN stack and utilizes GraphQL practices.</p>
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                            <SailingIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
                                         <IconButton className="" href="https://github.com/archonology/Prima-Materia" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            <GitHubIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
@@ -146,24 +146,24 @@ const Portfolio = () => {
                             </div>
                         </Grid>
 
-                        <Grid item xs={10} sm={5} md={4} lg={3}>
+                        <Grid item xs={11} sm={6} md={4} lg={3}>
                             <div className="card">
                                 <img src={Hparty} alt="home party" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>Home Party</h5>
-                                <p>Built collaboratively, Home Party is a place to invite your family and friends for tracking real estate. Utilizes <span>MySQL, Sequelize, Node, Bootstrap, and Nodemailer.</span></p>
+                                <p>Built collaboratively, Home Party is a place to invite your family and friends for tracking real estate. Utilizes MySQL, Sequelize, Node, Bootstrap, and Nodemailer.</p>
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://home-party-app.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                            <SailingIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
                                         <IconButton className="" href="https://github.com/archonology/Home-Party" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            <GitHubIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
@@ -171,24 +171,24 @@ const Portfolio = () => {
                             </div>
                         </Grid>
 
-                        <Grid item xs={10} sm={5} md={4} lg={3}>
+                        <Grid item xs={11} sm={6} md={4} lg={3}>
                             <div className="card">
                                 <img src={Wandering} alt="wandering comma" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>The Wandering Comma</h5>
-                                <p>A full stack tech blog created with RESTful practices. Users can leave comments and make posts. Utilizes <span>MySQL, Sequelize, Express, Node, and Bootstrap.</span></p>
+                                <p>A full stack tech blog created with RESTful practices. Users can leave comments and make posts. Utilizes MySQL, Sequelize, Express, Node, and Bootstrap.</p>
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://the-wandering-comma.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                            <SailingIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
                                         <IconButton className="" href="https://github.com/archonology/The-Wandering-Comma-Tech-Blog" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            <GitHubIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
@@ -196,24 +196,24 @@ const Portfolio = () => {
                             </div>
                         </Grid>
 
-                        <Grid item xs={10} sm={5} md={4} lg={3}>
+                        <Grid item xs={11} sm={6} md={4} lg={3}>
                             <div className="card">
                                 <img src={BookSearch} alt="booksearch" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>Book Search</h5>
-                                <p>A study in refactoring RESTful API to GraphQL API practices, this book search tool tackles the joy of using the <span>MERN stack</span> for searching fetch APIs. Allows users to login and manage a booklist.</p>
+                                <p>A study in refactoring RESTful API to GraphQL API practices, this book search tool tackles the joy of using the MERN stack for searching fetch APIs. Allows users to login and manage a booklist.</p>
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://book-search-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                            <SailingIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
                                         <IconButton className="" href="https://github.com/archonology/Book-Search-with-MERN" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            <GitHubIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
@@ -221,24 +221,24 @@ const Portfolio = () => {
                             </div>
                         </Grid>
 
-                        <Grid item xs={10} sm={5} md={4} lg={3}>
+                        <Grid item xs={11} sm={6} md={4} lg={3}>
                             <div className="card">
                                 <img src={PWA} alt="pwa text-editor" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>PWA Text Editor</h5>
-                                <p>A full stack PWA text editor. You can save it to your local device (via Chrome) <span> Uses Webpack, Workbox, Express, Idb,</span> and more.</p>
+                                <p>A full stack PWA text editor. You can save it to your local device (via Chrome)  Uses Webpack, Workbox, Express, Idb, and more.</p>
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://simple-pwa-text-editor-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                            <SailingIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
                                         <IconButton className="" href="https://github.com/archonology/PWA-Text-Editor" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                            <GitHubIcon fontSize="medium" />
                                         </IconButton>
                                     </Tooltip>
 
@@ -257,24 +257,24 @@ const Portfolio = () => {
                         <Grid container spacing={{ xs: 2, md: 2, lg: 3 }} columns={{ xs: 12, sm: 12, md: 10, lg: 10 }} justifyContent="center">
 
 
-                            <Grid item xs={10} sm={5} md={4} lg={3}>
+                            <Grid item xs={11} sm={6} md={4} lg={3}>
                                 <div className="card">
                                     <img src={NightIn} alt="a night in" className="portfolio-img m-3 mb-0"></img>
                                     <hr></hr>
                                     <h5>A Night In</h5>
-                                    <p>Built collaboratively on Github. This app will help a user find culinary and media inspiration through randomized searches to find ideas. <span>Tailwind, JQUERY, and webAPI.</span></p>
+                                    <p>Built collaboratively on Github. This app will help a user find culinary and media inspiration through randomized searches to find ideas. Tailwind, JQUERY, and webAPI.</p>
 
                                     <CardActions sx={{ justifyContent: "center" }}>
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/A-Night-In/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                                <SailingIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/A-Night-In" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                                <GitHubIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
@@ -282,24 +282,24 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5} md={4} lg={3}>
+                            <Grid item xs={11} sm={6} md={4} lg={3}>
                                 <div className="card">
                                     <img src={weather} alt="weather dashboard" className="portfolio-img m-3 mb-0"></img>
                                     <hr></hr>
                                     <h5>Weather Dashboard</h5>
-                                    <p>A weather tracking website that uses <span>webAPI</span> tools. Weather searches can easily check & track weather updates while they're traveling.</p>
+                                    <p>A weather tracking website that uses webAPI tools. Weather searches can easily check & track weather updates while they're traveling.</p>
 
                                     <CardActions sx={{ justifyContent: "center" }}>
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/Weather-Dashboard/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                                <SailingIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/Weather-Dashboard" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                                <GitHubIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
@@ -308,24 +308,24 @@ const Portfolio = () => {
                             </Grid>
 
 
-                            <Grid item xs={10} sm={5} md={4} lg={3}>
+                            <Grid item xs={11} sm={6} md={4} lg={3}>
                                 <div className="card">
                                     <img src={scheduler} alt="work day scheduler" className="portfolio-img m-3 mb-0"></img>
                                     <hr></hr>
                                     <h5>Work Day Scheduler</h5>
-                                    <p>A scheduling application that tracks the current day and time and allows a user to create and save persistent time events via <span>webAPI</span> tools.</p>
+                                    <p>A scheduling application that tracks the current day and time and allows a user to create and save persistent time events via webAPI tools.</p>
 
                                     <CardActions sx={{ justifyContent: "center" }}>
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/Work-Day-Scheduler/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                                <SailingIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/Work-Day-Scheduler" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                                <GitHubIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
@@ -333,24 +333,24 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={10} sm={5} md={4} lg={3}>
+                            <Grid item xs={11} sm={6} md={4} lg={3}>
                                 <div className="card">
                                     <img src={drumkit} alt="drumkit app" className="portfolio-img m-3 mb-0"></img>
                                     <hr></hr>
                                     <h5>JS Drum Kit</h5>
-                                    <p>A typing drumkit built with <span>vanilla JS</span> and <span>CSS</span> only. Users can rock out on their keyboard.</p>
+                                    <p>A typing drumkit built with vanilla JS and CSS only. Users can rock out on their keyboard.</p>
 
                                     <CardActions sx={{ justifyContent: "center" }}>
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/drum-kit/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                                <SailingIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/drum-kit" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                                <GitHubIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
@@ -383,13 +383,13 @@ const Portfolio = () => {
 
                                         <Tooltip title="Watch on YouTube">
                                             <IconButton className="" href="https://youtu.be/5A9lBIHdNGY" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                                <VideoLibraryIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/Bubble-World" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                                <GitHubIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
@@ -416,13 +416,13 @@ const Portfolio = () => {
 
                                         <Tooltip title="Watch on YouTube">
                                             <IconButton className="" href="https://youtu.be/L7r7JGepZZ4" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                                <VideoLibraryIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/E-Commerce-Back-End" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                                <GitHubIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
@@ -440,13 +440,13 @@ const Portfolio = () => {
 
                                         <Tooltip title="Watch on YouTube">
                                             <IconButton className="" href="https://youtu.be/ZaHrOHW6bLg" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                                <VideoLibraryIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/Team-Profile-Generator" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                                <GitHubIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
@@ -463,13 +463,13 @@ const Portfolio = () => {
 
                                         <Tooltip title="Watch on YouTube">
                                             <IconButton className="" href="https://youtu.be/r-aP_ufH47U" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="large" sx={{ color: "lightblue" }} />
+                                                <VideoLibraryIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/Employee-Library" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="large" sx={{ color: "pink" }} />
+                                                <GitHubIcon fontSize="medium" />
                                             </IconButton>
                                         </Tooltip>
 

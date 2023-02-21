@@ -12,7 +12,7 @@ function Header() {
 
     return (
         <>
-            <Navbar bg="transparent" variant="dark" className="mb-3 p-4" expand="md" id="#top">
+            <Navbar bg="transparent" variant="dark" className="mb-3 p-4 pattern" expand="md" id="#top">
                 <Container fluid >
                     <Navbar.Brand as={Link} to="/" className="">MeherDevs</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className='p-3' />
