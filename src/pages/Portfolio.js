@@ -108,13 +108,15 @@ const Portfolio = () => {
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://www.childwelfareportal.org/" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium" />
-                                        </IconButton>
+                                            <SailingIcon fontSize="medium"
+                                                sx={{ marginRight: 0.5 }}/>Site
+                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
-                                        <IconButton className="" href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="medium" />
+                                        <IconButton href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'}
+                                        >
+                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                         </IconButton>
                                     </Tooltip>
 
@@ -132,13 +134,14 @@ const Portfolio = () => {
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium" />
+                                            <SailingIcon fontSize="medium"
+                                                sx={{ marginRight: 0.5 }} />Site
                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
                                         <IconButton className="" href="https://github.com/archonology/Prima-Materia" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="medium" />
+                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                         </IconButton>
                                     </Tooltip>
 
@@ -157,13 +160,14 @@ const Portfolio = () => {
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://home-party-app.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium" />
+                                            <SailingIcon fontSize="medium"
+                                                sx={{ marginRight: 0.5 }} />Site
                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
                                         <IconButton className="" href="https://github.com/archonology/Home-Party" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="medium" />
+                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                         </IconButton>
                                     </Tooltip>
 
@@ -182,13 +186,14 @@ const Portfolio = () => {
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://the-wandering-comma.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium" />
+                                            <SailingIcon fontSize="medium"
+                                                sx={{ marginRight: 0.5 }} />Site
                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
                                         <IconButton className="" href="https://github.com/archonology/The-Wandering-Comma-Tech-Blog" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="medium" />
+                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                         </IconButton>
                                     </Tooltip>
 
@@ -207,13 +212,14 @@ const Portfolio = () => {
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://book-search-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium" />
+                                            <SailingIcon fontSize="medium"
+                                                sx={{ marginRight: 0.5 }} />Site
                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
                                         <IconButton className="" href="https://github.com/archonology/Book-Search-with-MERN" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="medium" />
+                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                         </IconButton>
                                     </Tooltip>
 
@@ -232,13 +238,14 @@ const Portfolio = () => {
 
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://simple-pwa-text-editor-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium" />
+                                            <SailingIcon fontSize="medium"
+                                                sx={{ marginRight: 0.5 }} />Site
                                         </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
                                         <IconButton className="" href="https://github.com/archonology/PWA-Text-Editor" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="medium" />
+                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                         </IconButton>
                                     </Tooltip>
 
@@ -268,13 +275,14 @@ const Portfolio = () => {
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/A-Night-In/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="medium" />
+                                                <SailingIcon fontSize="medium"
+                                                    sx={{ marginRight: 0.5 }} />Site
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/A-Night-In" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" />
+                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                             </IconButton>
                                         </Tooltip>
 
@@ -293,13 +301,14 @@ const Portfolio = () => {
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/Weather-Dashboard/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="medium" />
+                                                <SailingIcon fontSize="medium"
+                                                    sx={{ marginRight: 0.5 }} />Site
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/Weather-Dashboard" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" />
+                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                             </IconButton>
                                         </Tooltip>
 
@@ -319,13 +328,14 @@ const Portfolio = () => {
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/Work-Day-Scheduler/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="medium" />
+                                                <SailingIcon fontSize="medium"
+                                                    sx={{ marginRight: 0.5 }} />Site
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/Work-Day-Scheduler" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" />
+                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                             </IconButton>
                                         </Tooltip>
 
@@ -344,13 +354,14 @@ const Portfolio = () => {
 
                                         <Tooltip title="Visit Site">
                                             <IconButton className="" href="https://archonology.github.io/drum-kit/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="medium" />
+                                                <SailingIcon fontSize="medium"
+                                                    sx={{ marginRight: 0.5 }} />Site
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/drum-kit" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" />
+                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                             </IconButton>
                                         </Tooltip>
 
@@ -383,13 +394,13 @@ const Portfolio = () => {
 
                                         <Tooltip title="Watch on YouTube">
                                             <IconButton className="" href="https://youtu.be/5A9lBIHdNGY" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="medium" />
+                                                <VideoLibraryIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Watch
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/Bubble-World" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" />
+                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                             </IconButton>
                                         </Tooltip>
 
@@ -416,13 +427,13 @@ const Portfolio = () => {
 
                                         <Tooltip title="Watch on YouTube">
                                             <IconButton className="" href="https://youtu.be/L7r7JGepZZ4" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="medium" />
+                                                <VideoLibraryIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Watch
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/E-Commerce-Back-End" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" />
+                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                             </IconButton>
                                         </Tooltip>
 
@@ -440,13 +451,13 @@ const Portfolio = () => {
 
                                         <Tooltip title="Watch on YouTube">
                                             <IconButton className="" href="https://youtu.be/ZaHrOHW6bLg" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="medium" />
+                                                <VideoLibraryIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Watch
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/Team-Profile-Generator" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" />
+                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                             </IconButton>
                                         </Tooltip>
 
@@ -463,13 +474,13 @@ const Portfolio = () => {
 
                                         <Tooltip title="Watch on YouTube">
                                             <IconButton className="" href="https://youtu.be/r-aP_ufH47U" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="medium" />
+                                                <VideoLibraryIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Watch
                                             </IconButton>
                                         </Tooltip>
 
                                         <Tooltip title="visit Github page">
                                             <IconButton className="" href="https://github.com/archonology/Employee-Library" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" />
+                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
                                             </IconButton>
                                         </Tooltip>
 
