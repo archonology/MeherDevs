@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/MeherDevs/static/css/main.c55dde47.css",
-    "main.js": "/MeherDevs/static/js/main.b11fcbab.js",
-    "static/js/787.a7d97ceb.chunk.js": "/MeherDevs/static/js/787.a7d97ceb.chunk.js",
-    "static/media/drumkit.png": "/MeherDevs/static/media/drumkit.b2427e927031c9131662.png",
-    "static/media/prima-materia-home.jpg": "/MeherDevs/static/media/prima-materia-home.835ccd374f37f0e70ec6.jpg",
-    "static/media/home-party-page.jpg": "/MeherDevs/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
-    "static/media/DNGF7977.jpeg": "/MeherDevs/static/media/DNGF7977.a201fe96934473d34610.jpeg",
-    "static/media/booksearch-pic.jpg": "/MeherDevs/static/media/booksearch-pic.abb897cec4ed3828233c.jpg",
-    "static/media/ChildWelfarePortal.jpg": "/MeherDevs/static/media/ChildWelfarePortal.d2fbc7d9af27860de127.jpg",
-    "static/media/IMG_4904.jpeg": "/MeherDevs/static/media/IMG_4904.97fcc893082570a4dd10.jpeg",
-    "static/media/scheduler.jpg": "/MeherDevs/static/media/scheduler.02125173aa7881650ae1.jpg",
-    "static/media/weather-dashboard.jpg": "/MeherDevs/static/media/weather-dashboard.60ce3d625d4f6fb62dd6.jpg",
-    "static/media/a-night-in-page.jpg": "/MeherDevs/static/media/a-night-in-page.a077afed328e2ae96e36.jpg",
-    "static/media/wandering-comma.jpg": "/MeherDevs/static/media/wandering-comma.928ef04ff0ef7acd9d48.jpg",
-    "static/media/pwa-text-editor.jpg": "/MeherDevs/static/media/pwa-text-editor.e28e733eeed15bc10704.jpg",
-    "static/media/ReedMeher2023EXResume.pdf": "/MeherDevs/static/media/ReedMeher2023EXResume.e2c56884578bf7a5a4dd.pdf",
-    "index.html": "/MeherDevs/index.html",
-    "main.c55dde47.css.map": "/MeherDevs/static/css/main.c55dde47.css.map",
-    "main.b11fcbab.js.map": "/MeherDevs/static/js/main.b11fcbab.js.map",
-    "787.a7d97ceb.chunk.js.map": "/MeherDevs/static/js/787.a7d97ceb.chunk.js.map"
+    "main.css": "/static/css/main.252bac0d.css",
+    "main.js": "/static/js/main.ff52d72f.js",
+    "static/js/787.a7d97ceb.chunk.js": "/static/js/787.a7d97ceb.chunk.js",
+    "static/media/drumkit.png": "/static/media/drumkit.b2427e927031c9131662.png",
+    "static/media/prima-materia-home.jpg": "/static/media/prima-materia-home.835ccd374f37f0e70ec6.jpg",
+    "static/media/home-party-page.jpg": "/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
+    "static/media/DNGF7977.jpeg": "/static/media/DNGF7977.a201fe96934473d34610.jpeg",
+    "static/media/booksearch-pic.jpg": "/static/media/booksearch-pic.abb897cec4ed3828233c.jpg",
+    "static/media/ChildWelfarePortal.jpg": "/static/media/ChildWelfarePortal.d2fbc7d9af27860de127.jpg",
+    "static/media/IMG_4904.jpeg": "/static/media/IMG_4904.97fcc893082570a4dd10.jpeg",
+    "static/media/scheduler.jpg": "/static/media/scheduler.02125173aa7881650ae1.jpg",
+    "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.60ce3d625d4f6fb62dd6.jpg",
+    "static/media/a-night-in-page.jpg": "/static/media/a-night-in-page.a077afed328e2ae96e36.jpg",
+    "static/media/wandering-comma.jpg": "/static/media/wandering-comma.928ef04ff0ef7acd9d48.jpg",
+    "static/media/pwa-text-editor.jpg": "/static/media/pwa-text-editor.e28e733eeed15bc10704.jpg",
+    "static/media/ReedMeher2023EXResume.pdf": "/static/media/ReedMeher2023EXResume.e2c56884578bf7a5a4dd.pdf",
+    "index.html": "/index.html",
+    "main.252bac0d.css.map": "/static/css/main.252bac0d.css.map",
+    "main.ff52d72f.js.map": "/static/js/main.ff52d72f.js.map",
+    "787.a7d97ceb.chunk.js.map": "/static/js/787.a7d97ceb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c55dde47.css",
-    "static/js/main.b11fcbab.js"
+    "static/css/main.252bac0d.css",
+    "static/js/main.ff52d72f.js"
   ]
 }
