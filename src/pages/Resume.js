@@ -66,7 +66,7 @@ const Resume = () => {
                         </Tooltip>
                         <Tooltip title="Download Resume">
                             <a href={resume} className="resume" download>
-                                <i class="fa-solid fa-download">
+                                <i className="fa-solid fa-download">
                                 </i>
                             </a>
                         </Tooltip>
@@ -101,11 +101,11 @@ const Resume = () => {
                     <Grid direction="row" container sx={{ padding: "1rem", marginBottom: "1em" }}>
                         <Grid container spacing={2} justifyContent="center">
 
-                            <Grid item><h2 className="icons"><i class="fa-brands fa-square-js"></i> JavaScript</h2></Grid>
+                            <Grid item><h2 className="icons"><i className="fa-brands fa-square-js"></i> JavaScript</h2></Grid>
 
-                            <Grid item><h2 className="icons"><i class="fa-brands fa-css3"></i> CSS3</h2></Grid>
+                            <Grid item><h2 className="icons"><i className="fa-brands fa-css3"></i> CSS3</h2></Grid>
 
-                            <Grid item><h2 className="icons"><i class="fa-brands fa-html5"></i> HTML5</h2></Grid>
+                            <Grid item><h2 className="icons"><i className="fa-brands fa-html5"></i> HTML5</h2></Grid>
 
 
                         </Grid>
@@ -119,28 +119,28 @@ const Resume = () => {
 
                             <Grid item>
                                 <h3 className="icons">
-                                    <i class="fa-brands fa-react"> </i>
+                                    <i className="fa-brands fa-react"> </i>
                                     ReactJS
                                 </h3>
                             </Grid>
 
                             <Grid item>
                                 <h3 className="icons mt-2">
-                                    <i class="devicon-express-original"> </i>
+                                    <i className="devicon-express-original"> </i>
                                     ExpressJS
                                 </h3>
                             </Grid>
 
                             <Grid item>
                                 <h3 className="icons mt-2">
-                                    <i class="devicon-mongodb-plain"> </i>
+                                    <i className="devicon-mongodb-plain"> </i>
                                     MongoDB
                                 </h3>
                             </Grid>
 
                             <Grid item>
                                 <h3 className="icons mt-2">
-                                    <i class="devicon-nodejs-plain"> </i>
+                                    <i className="devicon-nodejs-plain"> </i>
                                     NodeJS
                                 </h3>
                             </Grid>
@@ -154,49 +154,49 @@ const Resume = () => {
 
                             <Grid item>
                                 <h3 className="icons mt-2">
-                                    <i class="devicon-materialui-plain"> </i>
+                                    <i className="devicon-materialui-plain"> </i>
                                     Material UI
                                 </h3>
                             </Grid>
 
                             <Grid item>
                                 <h3 className="icons mt-2">
-                                    <i class="devicon-bootstrap-plain"> </i>
+                                    <i className="devicon-bootstrap-plain"> </i>
                                     Bootstrap
                                 </h3>
                             </Grid>
 
                             <Grid item>
                                 <h3 className="icons mt-2">
-                                    <i class="devicon-git-plain"> </i>
+                                    <i className="devicon-git-plain"> </i>
                                     Git
                                 </h3>
                             </Grid>
 
                             <Grid item>
                                 <h3 className="icons mt-2">
-                                    <i class="devicon-webpack-plain"> </i>
+                                    <i className="devicon-webpack-plain"> </i>
                                     Webpack
                                 </h3>
                             </Grid>
 
                             <Grid item>
                                 <h3 className="icons mt-2">
-                                    <i class="devicon-jest-plain"> </i>
+                                    <i className="devicon-jest-plain"> </i>
                                     Jest
                                 </h3>
                             </Grid>
 
                             <Grid item>
                                 <h3 className="icons mt-2">
-                                    <i class="devicon-mysql-plain"> </i>
+                                    <i className="devicon-mysql-plain"> </i>
                                     mySQL
                                 </h3>
                             </Grid>
 
                             <Grid item>
                                 <h3 className="icons mt-2">
-                                    <i class="devicon-heroku-original"> </i>
+                                    <i className="devicon-heroku-original"> </i>
                                     Heroku
                                 </h3>
                             </Grid>

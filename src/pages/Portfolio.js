@@ -109,8 +109,8 @@ const Portfolio = () => {
                                     <Tooltip title="Visit Site">
                                         <IconButton className="" href="https://www.childwelfareportal.org/" target={'_blank'} rel={'nonreferrer'}>
                                             <SailingIcon fontSize="medium"
-                                                sx={{ marginRight: 0.5 }}/>Site
-                                         </IconButton>
+                                                sx={{ marginRight: 0.5 }} />Site
+                                        </IconButton>
                                     </Tooltip>
 
                                     <Tooltip title="visit Github page">
