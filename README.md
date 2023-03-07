@@ -1,7 +1,7 @@
 # MeherDevs Portfolio
 
 ## Links
-View the deployed site: https://archonology.github.io/MeherDevs/
+View the deployed site: https://www.meherdevs.com/
 
 ## Screenshot
 ![screenshot](./src/projectImages/MeherDevs.png)    

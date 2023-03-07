@@ -2,7 +2,7 @@
   "name": "meherdevs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://archonology.github.io/MeherDevs/",
+  "homepage": "https://www.meherdevs.com/",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.5",
