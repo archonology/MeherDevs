@@ -21,9 +21,8 @@ import BookSearch from '../projectImages/booksearch-pic.jpg';
 import PWA from '../projectImages/pwa-text-editor.jpg';
 
 import NightIn from '../projectImages/a-night-in-page.jpg';
-import drumkit from '../projectImages/drumkit.png';
 import weather from '../projectImages/weather-dashboard.jpg';
-import scheduler from '../projectImages/scheduler.jpg'
+import testApp from '../projectImages/testApp.png'
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -292,6 +291,32 @@ const Portfolio = () => {
 
                             <Grid item xs={11} sm={6} md={4} lg={3}>
                                 <div className="card">
+                                    <img src={testApp} alt="test app screenshot" className="portfolio-img m-3 mb-0"></img>
+                                    <hr></hr>
+                                    <h5>Coding Knowledge Test</h5>
+                                    <p>A handy testing app for a user to refresh their knowledge on key coding areas -- including the coding fundamentals and popular technologies like Node, Webpack, and React. Built with Vanilla JavaScript, CSS3, and HTML5.</p>
+
+                                    <CardActions sx={{ justifyContent: "center" }}>
+
+                                        <Tooltip title="Visit Site">
+                                            <IconButton className="" href="https://archonology.github.io/Knowledge-Test/" target={'_blank'} rel={'nonreferrer'}>
+                                                <SailingIcon fontSize="medium"
+                                                    sx={{ marginRight: 0.5 }} />Site
+                                            </IconButton>
+                                        </Tooltip>
+
+                                        <Tooltip title="visit Github page">
+                                            <IconButton className="" href="https://github.com/archonology/Knowledge-Test" target={'_blank'} rel={'nonreferrer'}>
+                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
+                                            </IconButton>
+                                        </Tooltip>
+
+                                    </CardActions>
+                                </div>
+                            </Grid>
+
+                            <Grid item xs={11} sm={6} md={4} lg={3}>
+                                <div className="card">
                                     <img src={weather} alt="weather dashboard" className="portfolio-img m-3 mb-0"></img>
                                     <hr></hr>
                                     <h5>Weather Dashboard</h5>
@@ -316,58 +341,6 @@ const Portfolio = () => {
                                 </div>
                             </Grid>
 
-
-                            <Grid item xs={11} sm={6} md={4} lg={3}>
-                                <div className="card">
-                                    <img src={scheduler} alt="work day scheduler" className="portfolio-img m-3 mb-0"></img>
-                                    <hr></hr>
-                                    <h5>Work Day Scheduler</h5>
-                                    <p>A scheduling application that tracks the current day and time and allows a user to create and save persistent time events via webAPI tools.</p>
-
-                                    <CardActions sx={{ justifyContent: "center" }}>
-
-                                        <Tooltip title="Visit Site">
-                                            <IconButton className="" href="https://archonology.github.io/Work-Day-Scheduler/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="medium"
-                                                    sx={{ marginRight: 0.5 }} />Site
-                                            </IconButton>
-                                        </Tooltip>
-
-                                        <Tooltip title="visit Github page">
-                                            <IconButton className="" href="https://github.com/archonology/Work-Day-Scheduler" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                            </IconButton>
-                                        </Tooltip>
-
-                                    </CardActions>
-                                </div>
-                            </Grid>
-
-                            <Grid item xs={11} sm={6} md={4} lg={3}>
-                                <div className="card">
-                                    <img src={drumkit} alt="drumkit app" className="portfolio-img m-3 mb-0"></img>
-                                    <hr></hr>
-                                    <h5>JS Drum Kit</h5>
-                                    <p>A typing drumkit built with vanilla JS and CSS only. Users can rock out on their keyboard.</p>
-
-                                    <CardActions sx={{ justifyContent: "center" }}>
-
-                                        <Tooltip title="Visit Site">
-                                            <IconButton className="" href="https://archonology.github.io/drum-kit/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="medium"
-                                                    sx={{ marginRight: 0.5 }} />Site
-                                            </IconButton>
-                                        </Tooltip>
-
-                                        <Tooltip title="visit Github page">
-                                            <IconButton className="" href="https://github.com/archonology/drum-kit" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                            </IconButton>
-                                        </Tooltip>
-
-                                    </CardActions>
-                                </div>
-                            </Grid>
 
                         </Grid>
                     </Grid>
