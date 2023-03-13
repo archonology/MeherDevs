@@ -11,6 +11,7 @@ import SailingIcon from '@mui/icons-material/Sailing';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Tooltip from '@mui/material/Tooltip';
 import IconButton from '@mui/material/IconButton';
+import Button from '@mui/material/Button';
 
 
 import CWP from '../projectImages/ChildWelfarePortal.jpg';
@@ -84,9 +85,8 @@ const Portfolio = () => {
                         allowScrollButtonsMobile
                         aria-label="scrollable Dashboard List Tabs"
                         indicatorColor="primary">
-                        <Tab label="Full-Stack" {...a11yProps(0)} />
-                        <Tab label="Frontend" {...a11yProps(1)} />
-                        <Tab label="Backend" {...a11yProps(2)} />
+                        <Tab label="Full Stack & Front End Devs" {...a11yProps(0)} />
+                        <Tab label="Backend Devs" {...a11yProps(1)} />
                     </Tabs>
 
                 </Box>
@@ -105,19 +105,23 @@ const Portfolio = () => {
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
-                                    <Tooltip title="Visit Site">
-                                        <IconButton className="" href="https://www.childwelfareportal.org/" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium"
-                                                sx={{ marginRight: 0.5 }} />Site
-                                        </IconButton>
-                                    </Tooltip>
 
-                                    <Tooltip title="visit Github page">
-                                        <IconButton href="https://github.com/archonology/CW-Portal" target={'_blank'} rel={'nonreferrer'}
-                                        >
-                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                        </IconButton>
-                                    </Tooltip>
+                                    <Button
+                                        variant="outlined"
+                                        href="https://www.childwelfareportal.org/"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Live Site
+                                    </Button>
+
+                                    <Button
+                                        variant="outlined"
+                                        color="success"
+                                        href="https://github.com/archonology/CW-Portal"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Repository
+                                    </Button>
 
                                 </CardActions>
                             </div>
@@ -131,18 +135,22 @@ const Portfolio = () => {
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
-                                    <Tooltip title="Visit Site">
-                                        <IconButton className="" href="https://prima-materia-84.herokuapp.com/" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium"
-                                                sx={{ marginRight: 0.5 }} />Site
-                                        </IconButton>
-                                    </Tooltip>
+                                    <Button
+                                        variant="outlined"
+                                        href="https://prima-materia-84.herokuapp.com/"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Live Site
+                                    </Button>
 
-                                    <Tooltip title="visit Github page">
-                                        <IconButton className="" href="https://github.com/archonology/Prima-Materia" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                        </IconButton>
-                                    </Tooltip>
+                                    <Button
+                                        variant="outlined"
+                                        color="success"
+                                        href="https://github.com/archonology/Prima-Materia"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Repository
+                                    </Button>
 
                                 </CardActions>
                             </div>
@@ -157,18 +165,22 @@ const Portfolio = () => {
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
-                                    <Tooltip title="Visit Site">
-                                        <IconButton className="" href="https://home-party-app.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium"
-                                                sx={{ marginRight: 0.5 }} />Site
-                                        </IconButton>
-                                    </Tooltip>
+                                    <Button
+                                        variant="outlined"
+                                        href="https://home-party-app.herokuapp.com"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Live Site
+                                    </Button>
 
-                                    <Tooltip title="visit Github page">
-                                        <IconButton className="" href="https://github.com/archonology/Home-Party" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                        </IconButton>
-                                    </Tooltip>
+                                    <Button
+                                        variant="outlined"
+                                        color="success"
+                                        href="https://github.com/archonology/Home-Party"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Repository
+                                    </Button>
 
                                 </CardActions>
                             </div>
@@ -183,18 +195,22 @@ const Portfolio = () => {
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
-                                    <Tooltip title="Visit Site">
-                                        <IconButton className="" href="https://the-wandering-comma.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium"
-                                                sx={{ marginRight: 0.5 }} />Site
-                                        </IconButton>
-                                    </Tooltip>
+                                    <Button
+                                        variant="outlined"
+                                        href="https://the-wandering-comma.herokuapp.com"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Live Site
+                                    </Button>
 
-                                    <Tooltip title="visit Github page">
-                                        <IconButton className="" href="https://github.com/archonology/The-Wandering-Comma-Tech-Blog" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                        </IconButton>
-                                    </Tooltip>
+                                    <Button
+                                        variant="outlined"
+                                        color="success"
+                                        href="https://github.com/archonology/The-Wandering-Comma-Tech-Blog"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Repository
+                                    </Button>
 
                                 </CardActions>
                             </div>
@@ -209,18 +225,22 @@ const Portfolio = () => {
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
-                                    <Tooltip title="Visit Site">
-                                        <IconButton className="" href="https://book-search-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium"
-                                                sx={{ marginRight: 0.5 }} />Site
-                                        </IconButton>
-                                    </Tooltip>
+                                    <Button
+                                        variant="outlined"
+                                        href="https://book-search-84.herokuapp.com"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Live Site
+                                    </Button>
 
-                                    <Tooltip title="visit Github page">
-                                        <IconButton className="" href="https://github.com/archonology/Book-Search-with-MERN" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                        </IconButton>
-                                    </Tooltip>
+                                    <Button
+                                        variant="outlined"
+                                        color="success"
+                                        href="https://github.com/archonology/Book-Search-with-MERN"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Repository
+                                    </Button>
 
                                 </CardActions>
                             </div>
@@ -235,18 +255,112 @@ const Portfolio = () => {
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
-                                    <Tooltip title="Visit Site">
-                                        <IconButton className="" href="https://simple-pwa-text-editor-84.herokuapp.com" target={'_blank'} rel={'nonreferrer'}>
-                                            <SailingIcon fontSize="medium"
-                                                sx={{ marginRight: 0.5 }} />Site
-                                        </IconButton>
-                                    </Tooltip>
+                                    <Button
+                                        variant="outlined"
+                                        href="https://simple-pwa-text-editor-84.herokuapp.com"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Live Site
+                                    </Button>
 
-                                    <Tooltip title="visit Github page">
-                                        <IconButton className="" href="https://github.com/archonology/PWA-Text-Editor" target={'_blank'} rel={'nonreferrer'}>
-                                            <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                        </IconButton>
-                                    </Tooltip>
+                                    <Button
+                                        variant="outlined"
+                                        color="success"
+                                        href="https://github.com/archonology/PWA-Text-Editor"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Repository
+                                    </Button>
+
+                                </CardActions>
+                            </div>
+                        </Grid>
+
+                        <Grid item xs={11} sm={6} md={4} lg={3}>
+                            <div className="card">
+                                <img src={NightIn} alt="a night in" className="portfolio-img m-3 mb-0"></img>
+                                <hr></hr>
+                                <h5>A Night In</h5>
+                                <p>Built collaboratively on Github. This app will help a user find culinary and media inspiration through randomized searches to find ideas. Tailwind, JQUERY, and webAPI.</p>
+
+                                <CardActions sx={{ justifyContent: "center" }}>
+
+                                    <Button
+                                        variant="outlined"
+                                        href="https://archonology.github.io/A-Night-In/"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Live Site
+                                    </Button>
+
+                                    <Button
+                                        variant="outlined"
+                                        color="success"
+                                        href="https://github.com/archonology/A-Night-In"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Repository
+                                    </Button>
+
+                                </CardActions>
+                            </div>
+                        </Grid>
+
+                        <Grid item xs={11} sm={6} md={4} lg={3}>
+                            <div className="card">
+                                <img src={testApp} alt="test app screenshot" className="portfolio-img m-3 mb-0"></img>
+                                <hr></hr>
+                                <h5>Coding Knowledge Test</h5>
+                                <p>A handy testing app for a user to refresh their knowledge on key coding areas -- including the coding fundamentals and popular technologies like Node, Webpack, and React. Built with Vanilla JavaScript, CSS3, and HTML5.</p>
+
+                                <CardActions sx={{ justifyContent: "center" }}>
+
+                                    <Button
+                                        variant="outlined"
+                                        href="https://archonology.github.io/Knowledge-Test/"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Live Site
+                                    </Button>
+
+                                    <Button
+                                        variant="outlined"
+                                        color="success"
+                                        href="https://github.com/archonology/Knowledge-Test"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Repository
+                                    </Button>
+
+                                </CardActions>
+                            </div>
+                        </Grid>
+
+                        <Grid item xs={11} sm={6} md={4} lg={3}>
+                            <div className="card">
+                                <img src={weather} alt="weather dashboard" className="portfolio-img m-3 mb-0"></img>
+                                <hr></hr>
+                                <h5>Weather Dashboard</h5>
+                                <p>A weather tracking website that uses webAPI tools. Weather searches can easily check & track weather updates while they're traveling.</p>
+
+                                <CardActions sx={{ justifyContent: "center" }}>
+
+                                    <Button
+                                        variant="outlined"
+                                        href="https://archonology.github.io/Weather-Dashboard/"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Live Site
+                                    </Button>
+
+                                    <Button
+                                        variant="outlined"
+                                        color="success"
+                                        href="https://github.com/archonology/Weather-Dashboard"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Repository
+                                    </Button>
 
                                 </CardActions>
                             </div>
@@ -255,98 +369,8 @@ const Portfolio = () => {
 
                     </Grid>
 
-
                 </TabPanel>
                 <TabPanel value={value} index={1}>
-
-                    <Grid >
-                        <Grid container spacing={{ xs: 2, md: 2, lg: 3 }} columns={{ xs: 12, sm: 12, md: 10, lg: 10 }} justifyContent="center">
-
-
-                            <Grid item xs={11} sm={6} md={4} lg={3}>
-                                <div className="card">
-                                    <img src={NightIn} alt="a night in" className="portfolio-img m-3 mb-0"></img>
-                                    <hr></hr>
-                                    <h5>A Night In</h5>
-                                    <p>Built collaboratively on Github. This app will help a user find culinary and media inspiration through randomized searches to find ideas. Tailwind, JQUERY, and webAPI.</p>
-
-                                    <CardActions sx={{ justifyContent: "center" }}>
-
-                                        <Tooltip title="Visit Site">
-                                            <IconButton className="" href="https://archonology.github.io/A-Night-In/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="medium"
-                                                    sx={{ marginRight: 0.5 }} />Site
-                                            </IconButton>
-                                        </Tooltip>
-
-                                        <Tooltip title="visit Github page">
-                                            <IconButton className="" href="https://github.com/archonology/A-Night-In" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                            </IconButton>
-                                        </Tooltip>
-
-                                    </CardActions>
-                                </div>
-                            </Grid>
-
-                            <Grid item xs={11} sm={6} md={4} lg={3}>
-                                <div className="card">
-                                    <img src={testApp} alt="test app screenshot" className="portfolio-img m-3 mb-0"></img>
-                                    <hr></hr>
-                                    <h5>Coding Knowledge Test</h5>
-                                    <p>A handy testing app for a user to refresh their knowledge on key coding areas -- including the coding fundamentals and popular technologies like Node, Webpack, and React. Built with Vanilla JavaScript, CSS3, and HTML5.</p>
-
-                                    <CardActions sx={{ justifyContent: "center" }}>
-
-                                        <Tooltip title="Visit Site">
-                                            <IconButton className="" href="https://archonology.github.io/Knowledge-Test/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="medium"
-                                                    sx={{ marginRight: 0.5 }} />Site
-                                            </IconButton>
-                                        </Tooltip>
-
-                                        <Tooltip title="visit Github page">
-                                            <IconButton className="" href="https://github.com/archonology/Knowledge-Test" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                            </IconButton>
-                                        </Tooltip>
-
-                                    </CardActions>
-                                </div>
-                            </Grid>
-
-                            <Grid item xs={11} sm={6} md={4} lg={3}>
-                                <div className="card">
-                                    <img src={weather} alt="weather dashboard" className="portfolio-img m-3 mb-0"></img>
-                                    <hr></hr>
-                                    <h5>Weather Dashboard</h5>
-                                    <p>A weather tracking website that uses webAPI tools. Weather searches can easily check & track weather updates while they're traveling.</p>
-
-                                    <CardActions sx={{ justifyContent: "center" }}>
-
-                                        <Tooltip title="Visit Site">
-                                            <IconButton className="" href="https://archonology.github.io/Weather-Dashboard/" target={'_blank'} rel={'nonreferrer'}>
-                                                <SailingIcon fontSize="medium"
-                                                    sx={{ marginRight: 0.5 }} />Site
-                                            </IconButton>
-                                        </Tooltip>
-
-                                        <Tooltip title="visit Github page">
-                                            <IconButton className="" href="https://github.com/archonology/Weather-Dashboard" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                            </IconButton>
-                                        </Tooltip>
-
-                                    </CardActions>
-                                </div>
-                            </Grid>
-
-
-                        </Grid>
-                    </Grid>
-
-                </TabPanel>
-                <TabPanel value={value} index={2}>
 
                     <Grid direction="row" container sx={{ padding: "2px" }}>
                         <Grid container spacing={2} justifyContent="center">
@@ -365,17 +389,22 @@ const Portfolio = () => {
                                     <p className="card-text">An experiment in understanding and developing a social media app. Bubble World is a backend application that utilizes MongoDB, Mongoose, and Express to explore the possiblities of social media.</p>
                                     <CardActions sx={{ justifyContent: "left" }}>
 
-                                        <Tooltip title="Watch on YouTube">
-                                            <IconButton className="" href="https://youtu.be/5A9lBIHdNGY" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Watch
-                                            </IconButton>
-                                        </Tooltip>
+                                        <Button
+                                            variant="outlined"
+                                            href="https://youtu.be/5A9lBIHdNGY"
+                                            target={'_blank'}
+                                            rel={'nonreferrer'}
+                                        >Go To Demo
+                                        </Button>
 
-                                        <Tooltip title="visit Github page">
-                                            <IconButton className="" href="https://github.com/archonology/Bubble-World" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                            </IconButton>
-                                        </Tooltip>
+                                        <Button
+                                            variant="outlined"
+                                            color="success"
+                                            href="https://github.com/archonology/Bubble-World"
+                                            target={'_blank'}
+                                            rel={'nonreferrer'}
+                                        >Repository
+                                        </Button>
 
                                     </CardActions>
                                 </div>
@@ -398,17 +427,22 @@ const Portfolio = () => {
                                     <p className="card-text">Back end application to develop my skill in back end technologies and learn about managing ORM techniques.</p>
                                     <CardActions sx={{ justifyContent: "left" }}>
 
-                                        <Tooltip title="Watch on YouTube">
-                                            <IconButton className="" href="https://youtu.be/L7r7JGepZZ4" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Watch
-                                            </IconButton>
-                                        </Tooltip>
+                                        <Button
+                                            variant="outlined"
+                                            href="https://youtu.be/L7r7JGepZZ4"
+                                            target={'_blank'}
+                                            rel={'nonreferrer'}
+                                        >Go To Demo
+                                        </Button>
 
-                                        <Tooltip title="visit Github page">
-                                            <IconButton className="" href="https://github.com/archonology/E-Commerce-Back-End" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                            </IconButton>
-                                        </Tooltip>
+                                        <Button
+                                            variant="outlined"
+                                            color="success"
+                                            href="https://github.com/archonology/E-Commerce-Back-End"
+                                            target={'_blank'}
+                                            rel={'nonreferrer'}
+                                        >Repository
+                                        </Button>
 
                                     </CardActions>
                                 </div>
@@ -422,17 +456,22 @@ const Portfolio = () => {
                                     <p className="card-text">I wanted to be able to generate an html page for team projects. Having a page to keep track of my group helps keep things organized and makes it easy to find contact info for my team and important links, like their github accounts or school info.</p>
                                     <CardActions sx={{ justifyContent: "left" }}>
 
-                                        <Tooltip title="Watch on YouTube">
-                                            <IconButton className="" href="https://youtu.be/ZaHrOHW6bLg" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Watch
-                                            </IconButton>
-                                        </Tooltip>
+                                        <Button
+                                            variant="outlined"
+                                            href="https://youtu.be/ZaHrOHW6bLg"
+                                            target={'_blank'}
+                                            rel={'nonreferrer'}
+                                        >Go To Demo
+                                        </Button>
 
-                                        <Tooltip title="visit Github page">
-                                            <IconButton className="" href="https://github.com/archonology/Team-Profile-Generator" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                            </IconButton>
-                                        </Tooltip>
+                                        <Button
+                                            variant="outlined"
+                                            color="success"
+                                            href="https://github.com/archonology/Team-Profile-Generator"
+                                            target={'_blank'}
+                                            rel={'nonreferrer'}
+                                        >Repository
+                                        </Button>
 
                                     </CardActions>
                                 </div>
@@ -445,17 +484,22 @@ const Portfolio = () => {
                                     <p className="card-text">Backend employee database management program. Solves the need for managing an employee database easily through the backend.</p>
                                     <CardActions sx={{ justifyContent: "left" }}>
 
-                                        <Tooltip title="Watch on YouTube">
-                                            <IconButton className="" href="https://youtu.be/r-aP_ufH47U" target={'_blank'} rel={'nonreferrer'}>
-                                                <VideoLibraryIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Watch
-                                            </IconButton>
-                                        </Tooltip>
+                                        <Button
+                                            variant="outlined"
+                                            href="https://youtu.be/r-aP_ufH47U"
+                                            target={'_blank'}
+                                            rel={'nonreferrer'}
+                                        >Go To Demo
+                                        </Button>
 
-                                        <Tooltip title="visit Github page">
-                                            <IconButton className="" href="https://github.com/archonology/Employee-Library" target={'_blank'} rel={'nonreferrer'}>
-                                                <GitHubIcon fontSize="medium" sx={{ marginRight: 0.5 }} />Repo
-                                            </IconButton>
-                                        </Tooltip>
+                                        <Button
+                                            variant="outlined"
+                                            color="success"
+                                            href="https://github.com/archonology/Employee-Library"
+                                            target={'_blank'}
+                                            rel={'nonreferrer'}
+                                        >Repository
+                                        </Button>
 
                                     </CardActions>
                                 </div>
