@@ -1,7 +1,7 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
 import { Tooltip, Stack, Grid } from "@mui/material";
-import reedhat from '../projectImages/IMG_4904.jpeg'
+import reedhat from '../projectImages/IMG_5676.jpeg'
 
 const About = () => {
     return (
