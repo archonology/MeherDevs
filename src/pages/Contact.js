@@ -70,6 +70,7 @@ function Contact() {
                 <h2 className="heading">Contact</h2>
                 <hr></hr>
                 <p className="mainText">Questions? Answers? Cool things?</p>
+                <p>Request a resume, discuss projects, or get pricing for jobs.</p>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>

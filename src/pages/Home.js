@@ -8,7 +8,7 @@ const Home = () => {
         <h1 className="welcome">MeherDevs</h1>
    <hr></hr>
         <p className="mainText">
-            MeherDevs is <span>Reed Meher</span>. Reed is a budding full stack and frontend developer seeking compelling projects, dynamic teamwork, and new ideas.  On this site you'll find Reed's portfolio, a contact form, his resume, and links to his Github and LinkedIn pages. 
+          Web Development & Design 
           </p>
       </Container>
   

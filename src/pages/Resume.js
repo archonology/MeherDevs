@@ -64,15 +64,15 @@ const Resume = () => {
                             <a className="github-icon" href="https://github.com/archonology" target={'_blank'} rel={'nonreferrer'}><i className="fa-brands fa-github-alt"></i></a>
 
                         </Tooltip>
-                        <Tooltip title="Download Resume">
+                        {/* <Tooltip title="Download Resume">
                             <a href={resume} className="resume" download>
                                 <i className="fa-solid fa-download">
                                 </i>
                             </a>
-                        </Tooltip>
+                        </Tooltip> */}
                     </span>
                 </h2>
-
+                <p>Please use the contact page to request a current resume.</p>
             </Container>
 
             <Box sx={{ width: '100%', marginTop: 0 }}>

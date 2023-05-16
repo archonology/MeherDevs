@@ -1,18 +1,3 @@
-/* :root {
-  --dawn100: rgb(254, 252, 248);
-  --lavendar100: rgb(254, 221, 254);
-  --lavendar200: rgb(252, 188, 252);
-  --lavendar300: rgb(254, 142, 254);
-  --red200: rgb(253, 242, 159);
-  --sky100: rgb(224, 237, 254);
-  --sky200: rgb(158, 194, 251);
-  --sky300: rgb(147, 178, 252);
-  --emerald100: rgb(161, 255, 151);
-  --emerald200: rgb(121, 251, 106);
-  --slate100: rgb(44, 45, 46);
-  --slate200: rgba(20, 17, 23, 0.79);
-  --slate300: rgb(40, 40, 41);
-} */
 :root {
   --dawn100: rgb(254, 252, 248);
   --dawn200: rgb(212, 207, 198);
@@ -97,6 +82,7 @@ a {
 
 span {
   color: var(--lavendar200);
+  font-size: 28px;
 }
 
 .portrait {
