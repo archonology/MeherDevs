@@ -20,6 +20,7 @@ import Hparty from '../projectImages/home-party-page.jpg';
 import Wandering from '../projectImages/wandering-comma.jpg';
 import BookSearch from '../projectImages/booksearch-pic.jpg';
 import PWA from '../projectImages/pwa-text-editor.jpg';
+import BakPak from '../projectImages/BAKPAK-screenshot.png'
 
 import NightIn from '../projectImages/a-night-in-page.jpg';
 import weather from '../projectImages/weather-dashboard.jpg';
@@ -94,7 +95,7 @@ const Portfolio = () => {
                 <TabPanel value={value} index={0}>
 
 
-                    <Grid container spacing={{ xs: 2, md: 2, lg: 3 }} columns={{ xs: 12, sm: 12, md: 12, lg: 10 }} justifyContent="center">
+                    <Grid container spacing={{ xs: 2, md: 2, lg: 2 }} columns={{ xs: 12, sm: 12, md: 12, lg: 10 }} justifyContent="center">
 
                         <Grid item xs={11} sm={6} md={5} lg={3}>
                             <div className="card">
@@ -158,6 +159,36 @@ const Portfolio = () => {
 
                         <Grid item xs={11} sm={6} md={4} lg={3}>
                             <div className="card">
+                                <img src={BakPak} alt="bakpak" className="portfolio-img m-3 mb-0"></img>
+                                <hr></hr>
+                                <h5>BakPak</h5>
+                                <p>A ReactJS application that offers a variety of practical tools for school, work, and research.</p>
+
+                                <CardActions sx={{ justifyContent: "center" }}>
+
+                                    <Button
+                                        variant="outlined"
+                                        href="https://archonology.github.io/BakPak/#/home"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Live Site
+                                    </Button>
+
+                                    <Button
+                                        variant="outlined"
+                                        color="success"
+                                        href="https://github.com/archonology/BakPak"
+                                        target={'_blank'}
+                                        rel={'nonreferrer'}
+                                    >Repository
+                                    </Button>
+
+                                </CardActions>
+                            </div>
+                        </Grid>
+
+                        <Grid item xs={11} sm={6} md={4} lg={3}>
+                            <div className="card">
                                 <img src={Hparty} alt="home party" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>Home Party</h5>
@@ -207,36 +238,6 @@ const Portfolio = () => {
                                         variant="outlined"
                                         color="success"
                                         href="https://github.com/archonology/The-Wandering-Comma-Tech-Blog"
-                                        target={'_blank'}
-                                        rel={'nonreferrer'}
-                                    >Repository
-                                    </Button>
-
-                                </CardActions>
-                            </div>
-                        </Grid>
-
-                        <Grid item xs={11} sm={6} md={4} lg={3}>
-                            <div className="card">
-                                <img src={BookSearch} alt="booksearch" className="portfolio-img m-3 mb-0"></img>
-                                <hr></hr>
-                                <h5>Book Search</h5>
-                                <p>A study in refactoring RESTful API to GraphQL API practices, this book search tool tackles the joy of using the MERN stack for searching fetch APIs. Allows users to login and manage a booklist.</p>
-
-                                <CardActions sx={{ justifyContent: "center" }}>
-
-                                    <Button
-                                        variant="outlined"
-                                        href="https://book-search-84.herokuapp.com"
-                                        target={'_blank'}
-                                        rel={'nonreferrer'}
-                                    >Live Site
-                                    </Button>
-
-                                    <Button
-                                        variant="outlined"
-                                        color="success"
-                                        href="https://github.com/archonology/Book-Search-with-MERN"
                                         target={'_blank'}
                                         rel={'nonreferrer'}
                                     >Repository
