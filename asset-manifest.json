@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.948231c9.css",
-    "main.js": "/static/js/main.a4335312.js",
+    "main.css": "/static/css/main.aa05e59f.css",
+    "main.js": "/static/js/main.09c253de.js",
     "static/js/787.a7d97ceb.chunk.js": "/static/js/787.a7d97ceb.chunk.js",
     "static/media/testApp.png": "/static/media/testApp.8ba25f5083b2447d72a5.png",
     "static/media/prima-materia-home.jpg": "/static/media/prima-materia-home.835ccd374f37f0e70ec6.jpg",
@@ -10,19 +10,19 @@
     "static/media/IMG_5676.jpeg": "/static/media/IMG_5676.243469d58fe7db62e78a.jpeg",
     "static/media/booksearch-pic.jpg": "/static/media/booksearch-pic.abb897cec4ed3828233c.jpg",
     "static/media/ChildWelfarePortal.jpg": "/static/media/ChildWelfarePortal.d2fbc7d9af27860de127.jpg",
-    "static/media/BAKPAK-screenshot.png": "/static/media/BAKPAK-screenshot.149586de4945114e2f6d.png",
+    "static/media/BakPak2.png": "/static/media/BakPak2.1b28d1c313d524471b81.png",
     "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.60ce3d625d4f6fb62dd6.jpg",
     "static/media/a-night-in-page.jpg": "/static/media/a-night-in-page.a077afed328e2ae96e36.jpg",
     "static/media/wandering-comma.jpg": "/static/media/wandering-comma.928ef04ff0ef7acd9d48.jpg",
     "static/media/pwa-text-editor.jpg": "/static/media/pwa-text-editor.e28e733eeed15bc10704.jpg",
     "static/media/ReedMeher_NYCWrCtr_Resume_2023.pdf": "/static/media/ReedMeher_NYCWrCtr_Resume_2023.3f2ca47c941640cc2ca3.pdf",
     "index.html": "/index.html",
-    "main.948231c9.css.map": "/static/css/main.948231c9.css.map",
-    "main.a4335312.js.map": "/static/js/main.a4335312.js.map",
+    "main.aa05e59f.css.map": "/static/css/main.aa05e59f.css.map",
+    "main.09c253de.js.map": "/static/js/main.09c253de.js.map",
     "787.a7d97ceb.chunk.js.map": "/static/js/787.a7d97ceb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.948231c9.css",
-    "static/js/main.a4335312.js"
+    "static/css/main.aa05e59f.css",
+    "static/js/main.09c253de.js"
   ]
 }
