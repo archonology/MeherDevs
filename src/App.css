@@ -63,7 +63,7 @@ img {
   border-radius: 10px;
   transition: 1s;
   max-width: 475px;
-  /* min-height: 275px; */
+  min-height: 265px;
 }
 
 img:hover {

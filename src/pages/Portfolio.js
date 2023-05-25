@@ -20,7 +20,7 @@ import Hparty from '../projectImages/home-party-page.jpg';
 import Wandering from '../projectImages/wandering-comma.jpg';
 import BookSearch from '../projectImages/booksearch-pic.jpg';
 import PWA from '../projectImages/pwa-text-editor.jpg';
-import BakPak from '../projectImages/BAKPAK-screenshot.png'
+import BakPak from '../projectImages/BakPak2.png'
 
 import NightIn from '../projectImages/a-night-in-page.jpg';
 import weather from '../projectImages/weather-dashboard.jpg';
@@ -162,7 +162,7 @@ const Portfolio = () => {
                                 <img src={BakPak} alt="bakpak" className="portfolio-img m-3 mb-0"></img>
                                 <hr></hr>
                                 <h5>BakPak</h5>
-                                <p>A ReactJS application that offers a variety of practical tools for school, work, and research.</p>
+                                <p>A ReactJS application that offers a variety of practical tools for school, work, and research. BakPak utilizes fetch API, Bootstrap, MUI, localStorage, and indexedDB.</p>
 
                                 <CardActions sx={{ justifyContent: "center" }}>
 
